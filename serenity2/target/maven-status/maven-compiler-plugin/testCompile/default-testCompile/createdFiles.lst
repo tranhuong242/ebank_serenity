@@ -1,0 +1,5 @@
+ebank\com\vn\pages\LoginPage.class
+ebank\com\vn\steps\serenity\LoginSteps.class
+ebank\com\vn\steps\serenity\TransferSteps.class
+ebank\com\vn\features\search\LoginStory.class
+ebank\com\vn\pages\TransferPage.class

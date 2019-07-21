@@ -1,0 +1,213 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<!--[if IE 7]>
+<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">
+<![endif]--><!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><!-- Bootstrap -->
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script><link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">Demo Project using Serenity and JUnit</span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="74771253b510db327408a8b689da8f40c3746a6d378e7130cc175ffdea88fd00.html">Login Story</a></span>
+                > <span class="truncate-60"><a
+                    href="fbb995c1a7385e2c16d967d87fbf5a9bee879137553ec71f08efa060ee9f1773.html">Login ebank </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+        <li >
+            <a href="2a4631d87648e59c428d4cf0e9247f9d286e4679f436ca2ce872e931eb4dfd58.html"><i class="fa fa-comments-o"></i> Stories</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 21-07-2019 20:50</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Login Story </span>
+                                    <span class="badge tag-badge">Story</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge">
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" href="b73ab2df35cd94b5317e6d6bfdb3d2310ff26862ef2f19989342051d05f64b83.html">Search
+                                    (feature)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-exclamation-triangle error-icon fa-2x' title='ERROR'></i></span>
+                            <span class="test-case-title">
+                                <span class="error-color">Login ebank
+                                    <span class="related-issue-title">(#WIKI-1)</span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+            <div class="screenshotFailure panel panel-danger">
+                <div class="panel-heading"><span class='error-caption ellipsis'>ERROR: Element click intercepted exception: ...</span></div>
+                <div class="panel-body">
+                    <a href="pagesource4845884095936541496.html.txt" target="_blank" class="btn btn-info">HTML Source</a>
+                </div>
+            </div>
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="scaled_0fc4b7866b867d4555bf704d88f5bbb1ea94edeefeb477e8b2274e2f894c4bfa.png" title="Is the home page" width="960"/>
+                <img src="scaled_76b5e8a5d8e629695417fc96b1e671a3509aa1031e61f554bf1925562799ee21.png" title="Login: tranhuong242, tran1234" width="960"/>
+                <img src="scaled_4875c35228ff5922982c322527e16bf93d7864dbf8f7e0987b2189edb7142c23.png" title="Login: tranhuong242, tran1234" width="960"/>
+                <img src="76b5e8a5d8e629695417fc96b1e671a3509aa1031e61f554bf1925562799ee21.png" title="Enters: tranhuong242, tran1234" width="960"/>
+                <img src="scaled_9fd845376b4c005ffdc173c21cb1dbd0d0add74c6144686f9751c6a4dd1ac6e6.png" title="Enters: tranhuong242, tran1234" width="960"/>
+                <img src="9fd845376b4c005ffdc173c21cb1dbd0d0add74c6144686f9751c6a4dd1ac6e6.png" title="Start login" width="960"/>
+                <img src="scaled_367a50e87e2b651dfa8337d1f1bdbd9dff1e347b94f4a10b2b559566da9e9e3c.png" title="Start login" width="960"/>
+                <img src="scaled_ad4f42fdb6588a5cd34b345461a511a9ae4735fa23c173f6fca05101669041f7.png" title="Select" width="960"/>
+                <img src="scaled_468c8fac089fe0c82c85a47048ca8bc632e47a82f1f04af83c75aac9caa4d7c7.png" title="Select" width="960"/>
+                <img src="scaled_c4de49bf3d8c8181d620870e832537401a05e1a0ea577f41fe6496e74c420179.png" title="Enters bank: Techcombank" width="960"/>
+                <img src="scaled_9023fb6bd34e9a2330b0663c2fe5d2be983f8fd27e993d850049b32f18cbd0ce.png" title="Enters bank: Techcombank" width="960"/>
+                <img src="scaled_f40c2373b2040f60e6d8ab439b6aada1c01f5633b6c743972e2f50ed9cd24433.png" title="Enters branch: H&agrave; Nội" width="960"/>
+                <img src="9023fb6bd34e9a2330b0663c2fe5d2be983f8fd27e993d850049b32f18cbd0ce.png" title="Enters branch: H&agrave; Nội" width="960"/>
+                <img src="scaled_9f26462a85652d4bcbfca999997dd0212f374e8d6a78a7a80a3a4d5759ed935e.png" title="Enter transfer: 19028754379017, 10000, huongtt" width="960"/>
+                <img src="scaled_db3f3af4c4320ec72b19c3e15f8b3fcf76301f3fc9b7f3c7bfe4cb02a1357318.png" title="Enter transfer: 19028754379017, 10000, huongtt" width="960"/>
+                <img src="scaled_8b5f6814c7f287d73541a82b1e27334e250465881e44ff54f22db9995772c40d.png" title="Start transfer" width="960"/>
+                <img src="scaled_288aa8bf64cbbe52dee5e51b14ea7ff97536cea01bfaa49f37ff8ce4f6c0957c.png" title="Start transfer2" width="960"/>
+                <img src="scaled_46554921797c616577b356e8c3a68fcfc5fe79bcab2e70eb9f5ccc208970e307.png" title="Start transfer2: <span class='error-color'>ERROR</span>" width="960"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 1.8.1</span>
+</div>
+</body>
+</html>

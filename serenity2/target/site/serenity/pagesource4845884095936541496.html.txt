@@ -1,0 +1,1783 @@
+<html manifest="ebank.appcache" class="pixel-ratio-1"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta http-equiv="X-UA-Compatible" content="IE=10">
+<meta name="viewport" content="initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0, width=device-width">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="format-detection" content="telephone=no">
+<meta name="msapplication-tap-highlight" content="no">
+<meta content="TPBank eBanking" name="description">
+<meta content="ebanking, internet banking, internet, banking, mobile banking, mobile, online, tpbank, tienphong, tien phong" name="keywords">
+
+<!--fdfdfdgdgfg-->
+<!--ngoc kute-->
+<title>TPBank eBanking</title>
+<link rel="icon" type="image/x-icon" href="./assets/images/favicon.ico">
+<link rel="SHORTCUT ICON" href="./assets/images/favicon.ico">
+<link rel="stylesheet" href="css/common.css?v=9.2.8" type="text/css">
+<!-- eBank Desktop -->
+<link rel="stylesheet" href="css/style.css?v=9.2.8" type="text/css" media="only screen and (min-width:801px)">
+<link rel="stylesheet" href="css/fonts.css?v=9.2.8" type="text/css">
+<link rel="stylesheet" href="css/ebankstyle.css?v=9.2.8" type="text/css" media="only screen and (min-width:801px)">
+<!-- eBank Mobile -->
+<link rel="stylesheet" href="./assets/fonts/iconfonts.css?v=9.2.8" type="text/css">
+<link rel="stylesheet" href="cssmb/fonts.css?v=9.2.8" type="text/css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/ebankstyle.css">
+<!--<script type="text/javascript" src="./assets/libs/framework7.js?v=9.2.8"></script>-->
+<!--SANGNT1 add-->
+<!--<link rel="stylesheet" href="./assets/libs/fw7/fw7.css?v=9.2.8" type="text/css"/>
+<link rel="stylesheet" href="./assets/libs/menupageslide/menuslide.css?v=9.2.8" type="text/css"/>
+<link rel="stylesheet" href="./assets/libs/modalDialog/modaldialog.css?v=9.2.8" type="text/css"/>
+<link rel="stylesheet" href="./assets/libs/recyclerview/recycler.css?v=9.2.8" type="text/css"/>-->
+<script type="text/javascript" async="" src="https://count.tpb.vn/enterpriseinfo/javascripts/countly.min.js"></script><script id="facebook-jssdk" src="https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js#xfbml=1&amp;version=v2.12&amp;autoLogAppEvents=1"></script><script type="text/javascript" src="./assets/libs/fingerprint/fingerprint.js?v=9.2.8"></script>
+<script type="text/javascript" src="./assets/libs/fw7/framework7.js?v=9.2.8"></script>
+<!-----------------------------SANGNT1------------------------------------------------>
+<script type="text/javascript" src="./assets/libs/navicontrol/ua-parser.js?v=9.2.8"></script>
+<script type="text/javascript" src="./assets/constants.js?v=9.2.8"></script>
+<script type="text/javascript" src="./assets/preload.js?v=9.2.8"></script><script type="text/javascript" src="https://ebank.tpb.vn/retail/v8/assets/sysdata/banners.js"></script>
+<script type="text/javascript" src="./assets/libs/es5-shim.js?v=9.2.8"></script>
+<script type="text/javascript" src="./pages/newsxsl/list_news_cat_menu_scr.js?v=9.2.8"></script>
+<script type="text/javascript" src="./assets/libs/slideinmenu.js?v=9.2.8"></script>
+<script type="text/javascript" src="./assets/libs/virtualkeyboard.js?v=9.2.8"></script>
+<script type="text/javascript" src="./assets/common.js?v=9.2.8"></script>
+<script type="text/javascript" src="./assets/TPBank-libs.js?v=9.2.8"></script>
+<script type="text/javascript" src="./assets/navigation.js?v=9.2.8"></script>
+<script type="text/javascript" src="./assets/actionbar.js?v=9.2.8"></script>
+<script type="text/javascript" src="./assets/LangVN.js?v=9.2.8"></script>
+<script type="text/javascript" src="./assets/LangEN.js?v=9.2.8"></script>
+<script type="text/javascript" src="./assets/mb-service.js?v=9.2.8"></script>
+<script type="text/javascript" src="./assets/init.js?v=9.2.8"></script>
+<script type="text/javascript" src="./assets/libs/tabs.js?v=9.2.8"></script>
+<script type="text/javascript" src="./assets/libs/html2canvas.js?v=9.2.8"></script>
+<!-- <script src="assets/libs/floatingbutton/floatingbutton.js?v=9.2.8" type="text/javascript"></script> -->
+<script src="assets/libs/bottombar/bottombar.js?v=9.2.8" type="text/javascript"></script>
+<script src="assets/libs/piechart/piechart.js?v=9.2.8" type="text/javascript"></script>
+<script src="assets/libs/piechart/single-pie-chart.js?v=9.2.8" type="text/javascript"></script>
+<script src="assets/libs/groupControl/input.js?v=9.2.8" type="text/javascript"></script>
+<script src="assets/libs/groupControl/combo.js?v=9.2.8" type="text/javascript"></script>
+<script src="assets/libs/groupControl/textarea.js?v=9.2.8" type="text/javascript"></script>
+<script type="text/javascript" src="./assets/libs/menupageslide/menuslide.js?v=9.2.8"></script>
+<script type="text/javascript" src="./assets/libs/modalDialog/ModalDialog.js?v=9.2.8"></script>
+<script type="text/javascript" src="./assets/libs/notificationdialog/notificationdialog.js?v=9.2.8"></script>
+<script type="text/javascript" src="./assets/dialog-util.js?v=9.2.8"></script>
+<script type="text/javascript" src="./assets/validate-util.js?v=9.2.8"></script>
+<script type="text/javascript" src="./assets/libs/recyclerview/Recycler.js?v=9.2.8"></script>
+<script type="text/javascript" src="./assets/floaty.js?v=9.2.8"></script>
+
+<!-- LOAD IMAGE -->
+<script type="text/javascript" src="./assets/libs/carmera/load-image.js?v=9.2.8"></script>
+<script type="text/javascript" src="./assets/libs/carmera/load-image-ios.js?v=9.2.8"></script>
+<script type="text/javascript" src="./assets/libs/carmera/load-image-orientation.js?v=9.2.8"></script>
+<script type="text/javascript" src="./assets/libs/carmera/load-image-meta.js?v=9.2.8"></script>
+<script type="text/javascript" src="./assets/libs/carmera/load-image-exif.js?v=9.2.8"></script>
+<script type="text/javascript" src="./assets/libs/carmera/load-image-exif-map.js?v=9.2.8"></script>
+<script type="text/javascript" src="./assets/libs/carmera/canvas-to-blob.js?v=9.2.8"></script>
+<link rel="stylesheet" href="./assets/libs/slideshow/js-image-slider.css?v=9.2.8" type="text/css">
+<script type="text/javascript" src="./assets/libs/slideshow/js-image-slider.js?v=9.2.8"></script>
+<link rel="stylesheet" href="./assets/libs/pinpad/style_lockscreen.css?v=9.2.8" type="text/css">
+<script type="text/javascript" src="./assets/libs/pinpad/jquery.js?v=9.2.8"></script>
+<script type="text/javascript" src="./assets/libs/pinpad/jquery-ui.min.js?v=9.2.8"></script>
+<script type="text/javascript" src="./assets/libs/crypto.js?v=9.2.8"></script>
+
+<!-- List view -->
+<!--<link rel="stylesheet" href="./assets/libs/swipeActionList/swipeactionlist.css?v=9.2.8" type="text/css"/>-->
+<script type="text/javascript" src="assets/libs/swipeActionList/swipeactionlist.js?v=9.2.8"></script>
+
+<!-- End list view -->
+<script type="text/javascript" src="./assets/cache-control.js?v=9.2.8"></script>
+
+
+<style type="text/css">
+
+    #bodyPage {
+        /*display:none;*/
+    }
+
+    #loadingPage {
+        display: none;
+        z-index: 2000;
+        top: 0px;
+        left: 0px;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.2);
+        transition: opacity 1s;
+        -moz-transition: opacity 1s;
+        -webkit-transition: opacity 1s; /* Safari */
+        -ms-transition: opacity 1s;
+        text-align: center;
+        opacity: 1;
+        background-image: -ms-radial-gradient(center, circle closest-side, #63376A 0%, #4D225A 60%);
+        background-image: -moz-radial-gradient(center, circle closest-side, #63376A 0%, #4D225A 60%);
+        background-image: -o-radial-gradient(center, circle closest-side, #63376A 0%, #4D225A 60%);
+        background-image: -webkit-gradient(radial, center center, 0, center center, 140, color-stop(0, #63376A), color-stop(1, #4D225A));
+        background-image: -webkit-radial-gradient(center, circle closest-side, #63376A 0%, #4D225A 60%);
+        background-image: radial-gradient(circle closest-side at center, #63376A 0%, #4D225A 60%);
+    }
+
+    #loadingPage .circle {
+        top: 46%;
+        background-color: rgba(0, 0, 0, 0);
+        border: 5px solid rgba(0, 183, 229, 0.9);
+        /*border: 5px solid rgba(245, 131, 31, 0.9);*/
+        opacity: .9;
+        border-right: 5px solid rgba(0, 0, 0, 0);
+        border-left: 5px solid rgba(0, 0, 0, 0);
+        border-radius: 50px;
+        -webkit-border-radius: 50px;
+        -webkit-border-top-left-radius: 50px;
+        -webkit-border-top-right-radius: 50px;
+        -webkit-border-bottom-left-radius: 50px;
+        -webkit-border-bottom-right-radius: 50px;
+        -moz-border-radius: 50px;
+        box-shadow: 0 0 35px #2187e7;
+        /*box-shadow: 0 0 35px #FFAC48;*/
+        width: 50px;
+        height: 50px;
+        margin: 0 auto;
+        position: relative;
+        animation: spinPulse 1s infinite ease-in-out;
+        -ms-animation: spinPulse 1s infinite ease-in-out;
+        -moz-animation: spinPulse 1s infinite ease-in-out;
+        -webkit-animation: spinPulse 1s infinite linear;
+    }
+
+    #loadingPage .circle1 {
+        top: 41%;
+        background-color: rgba(0, 0, 0, 0);
+        border: 5px solid rgba(0, 183, 229, 0.9);
+        /*border: 5px solid rgba(245, 131, 31, 0.9);*/
+        opacity: .9;
+        border-left: 5px solid rgba(0, 0, 0, 0);
+        border-right: 5px solid rgba(0, 0, 0, 0);
+        border-radius: 50px;
+        -webkit-border-radius: 50px;
+        -webkit-border-top-left-radius: 50px;
+        -webkit-border-top-right-radius: 50px;
+        -webkit-border-bottom-left-radius: 50px;
+        -webkit-border-bottom-right-radius: 50px;
+        -moz-border-radius: 50px;
+        box-shadow: 0 0 15px #2187e7;
+        /*box-shadow: 0 0 15px #FFAC48;*/
+        width: 30px;
+        height: 30px;
+        margin: 0 auto;
+        margin-top: 7px;
+        position: relative;
+        animation: spinoffPulse 1s infinite linear;
+        -ms-animation: spinoffPulse 1s infinite linear;
+        -moz-animation: spinoffPulse 1s infinite linear;
+        -webkit-animation: spinoffPulse 1s infinite linear;
+    }
+
+    @media only screen and (max-width: 800px) {
+        #loadingPage {
+            background-color: #471C51;
+        }
+
+        #loadingPage .circle1 {
+            top: 39%;
+            margin-top: 6px;
+        }
+    }
+
+    @-moz-keyframes spinPulse {
+         0% {
+        -moz-transform:rotate(160deg);
+        opacity:0;
+        box-shadow:0 0 1px #2187e7;
+        }
+         50% {
+        -moz-transform:rotate(145deg);
+        opacity:1;
+        }
+         100% {
+        -moz-transform:rotate(-320deg);
+        opacity:0;
+        }
+        }
+            @-moz-keyframes spinoffPulse {
+         0% {
+        -moz-transform:rotate(0deg);
+        }
+         100% {
+        -moz-transform:rotate(360deg);
+        }
+        }
+            @-webkit-keyframes spinPulse {
+         0% {
+        -webkit-transform:rotate(160deg);
+        opacity:0;
+        box-shadow:0 0 1px #2187e7;
+        }
+         50% {
+        -webkit-transform:rotate(145deg);
+        opacity:1;
+        }
+         100% {
+        -webkit-transform:rotate(-320deg);
+        opacity:0;
+        }
+        }
+            @-webkit-keyframes spinoffPulse {
+         0% {
+        -webkit-transform:rotate(0deg);
+        }
+         100% {
+        -webkit-transform:rotate(360deg);
+        }
+        }
+            @-ms-keyframes spinPulse {
+         0% {
+        -ms-transform:rotate(160deg);
+        opacity:0;
+        box-shadow:0 0 1px #2187e7;
+        }
+         50% {
+        -ms-transform:rotate(145deg);
+        opacity:1;
+        }
+         100% {
+        -ms-transform:rotate(-320deg);
+        opacity:0;
+        }
+        }
+            @-ms-keyframes spinoffPulse {
+         0% {
+        -ms-transform:rotate(0deg);
+        }
+         100% {
+        -ms-transform:rotate(360deg);
+        }
+        }
+    #hideAll
+    {
+        position: fixed;
+        left: 0px;
+        right: 0px;
+        top: 0px;
+        bottom: 0px;
+        background-color: #471C51;
+        width: 100%;
+        height: 100%;
+        z-index: 99999; /* Higher than anything else in the document */
+
+    }
+</style>
+<link rel="stylesheet" type="text/css" href="./assets/libs/calendar/datepicker.css"><script type="text/javascript" src="./assets/libs/calendar/datepicker.js"></script><script type="text/javascript" src="./assets/libs/slip.js"></script><style id="pageVerticalSlideDynamic">.main-layout .main-layout-vertical-slideview { height: 507px; }</style><script type="text/javascript" src="https://ebank.tpb.vn/retail/v8/assets/system-payment-config.js"></script><script type="text/javascript" src="https://ebank.tpb.vn/retail/v8/assets/sysdata/paymentComboFields.js"></script><script type="text/javascript" src="https://ebank.tpb.vn/retail/v8/assets/sysdata/paymentGroups.js"></script><script type="text/javascript" src="https://ebank.tpb.vn/retail/v8/assets/sysdata/paymentProviders.js"></script><script type="text/javascript" src="https://ebank.tpb.vn/retail/v8/assets/sysdata/paymentRequestFields.js"></script><script type="text/javascript" src="https://ebank.tpb.vn/retail/v8/assets/sysdata/paymentServices.js"></script><script type="text/javascript" src="https://ebank.tpb.vn/retail/v8/assets/sysdata/branchInterbanks.js"></script><script type="text/javascript" src="https://ebank.tpb.vn/retail/v8/assets/sysdata/branchs.js"></script><script type="text/javascript" src="https://ebank.tpb.vn/retail/v8/assets/sysdata/countries.js"></script><script type="text/javascript" src="https://ebank.tpb.vn/retail/v8/assets/sysdata/districts.js"></script><script type="text/javascript" src="https://ebank.tpb.vn/retail/v8/assets/sysdata/interbanks.js"></script><script type="text/javascript" src="https://ebank.tpb.vn/retail/v8/assets/sysdata/provinces.js"></script><script type="text/javascript" src="https://ebank.tpb.vn/retail/v8/assets/system-data.js"></script><style type="text/css">.fb_hidden{position:absolute;top:-10000px;z-index:10001}.fb_reposition{overflow:hidden;position:relative}.fb_invisible{display:none}.fb_reset{background:none;border:0;border-spacing:0;color:#000;cursor:auto;direction:ltr;font-family:"lucida grande", tahoma, verdana, arial, sans-serif;font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:1;margin:0;overflow:visible;padding:0;text-align:left;text-decoration:none;text-indent:0;text-shadow:none;text-transform:none;visibility:visible;white-space:normal;word-spacing:normal}.fb_reset>div{overflow:hidden}@keyframes fb_transform{from{opacity:0;transform:scale(.95)}to{opacity:1;transform:scale(1)}}.fb_animate{animation:fb_transform .3s forwards}
+.fb_dialog{background:rgba(82, 82, 82, .7);position:absolute;top:-10000px;z-index:10001}.fb_dialog_advanced{border-radius:8px;padding:10px}.fb_dialog_content{background:#fff;color:#373737}.fb_dialog_close_icon{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 0 transparent;cursor:pointer;display:block;height:15px;position:absolute;right:18px;top:17px;width:15px}.fb_dialog_mobile .fb_dialog_close_icon{left:5px;right:auto;top:5px}.fb_dialog_padding{background-color:transparent;position:absolute;width:1px;z-index:-1}.fb_dialog_close_icon:hover{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -15px transparent}.fb_dialog_close_icon:active{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -30px transparent}.fb_dialog_iframe{line-height:0}.fb_dialog_content .dialog_title{background:#6d84b4;border:1px solid #365899;color:#fff;font-size:14px;font-weight:bold;margin:0}.fb_dialog_content .dialog_title>span{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yd/r/Cou7n-nqK52.gif) no-repeat 5px 50%;float:left;padding:5px 0 7px 26px}body.fb_hidden{height:100%;left:0;margin:0;overflow:visible;position:absolute;top:-10000px;transform:none;width:100%}.fb_dialog.fb_dialog_mobile.loading{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/ya/r/3rhSv5V8j3o.gif) white no-repeat 50% 50%;min-height:100%;min-width:100%;overflow:hidden;position:absolute;top:0;z-index:10001}.fb_dialog.fb_dialog_mobile.loading.centered{background:none;height:auto;min-height:initial;min-width:initial;width:auto}.fb_dialog.fb_dialog_mobile.loading.centered #fb_dialog_loader_spinner{width:100%}.fb_dialog.fb_dialog_mobile.loading.centered .fb_dialog_content{background:none}.loading.centered #fb_dialog_loader_close{clear:both;color:#fff;display:block;font-size:18px;padding-top:20px}#fb-root #fb_dialog_ipad_overlay{background:rgba(0, 0, 0, .4);bottom:0;left:0;min-height:100%;position:absolute;right:0;top:0;width:100%;z-index:10000}#fb-root #fb_dialog_ipad_overlay.hidden{display:none}.fb_dialog.fb_dialog_mobile.loading iframe{visibility:hidden}.fb_dialog_mobile .fb_dialog_iframe{position:sticky;top:0}.fb_dialog_content .dialog_header{background:linear-gradient(from(#738aba), to(#2c4987));border-bottom:1px solid;border-color:#1d3c78;box-shadow:white 0 1px 1px -1px inset;color:#fff;font:bold 14px Helvetica, sans-serif;text-overflow:ellipsis;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0;vertical-align:middle;white-space:nowrap}.fb_dialog_content .dialog_header table{height:43px;width:100%}.fb_dialog_content .dialog_header td.header_left{font-size:12px;padding-left:5px;vertical-align:middle;width:60px}.fb_dialog_content .dialog_header td.header_right{font-size:12px;padding-right:5px;vertical-align:middle;width:60px}.fb_dialog_content .touchable_button{background:linear-gradient(from(#4267B2), to(#2a4887));background-clip:padding-box;border:1px solid #29487d;border-radius:3px;display:inline-block;line-height:18px;margin-top:3px;max-width:85px;padding:4px 12px;position:relative}.fb_dialog_content .dialog_header .touchable_button input{background:none;border:none;color:#fff;font:bold 12px Helvetica, sans-serif;margin:2px -12px;padding:2px 6px 3px 6px;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}.fb_dialog_content .dialog_header .header_center{color:#fff;font-size:16px;font-weight:bold;line-height:18px;text-align:center;vertical-align:middle}.fb_dialog_content .dialog_content{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/y9/r/jKEcVPZFk-2.gif) no-repeat 50% 50%;border:1px solid #4a4a4a;border-bottom:0;border-top:0;height:150px}.fb_dialog_content .dialog_footer{background:#f5f6f7;border:1px solid #4a4a4a;border-top-color:#ccc;height:40px}#fb_dialog_loader_close{float:left}.fb_dialog.fb_dialog_mobile .fb_dialog_close_button{text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}.fb_dialog.fb_dialog_mobile .fb_dialog_close_icon{visibility:hidden}#fb_dialog_loader_spinner{animation:rotateSpinner 1.2s linear infinite;background-color:transparent;background-image:url(https://static.xx.fbcdn.net/rsrc.php/v3/yD/r/t-wz8gw1xG1.png);background-position:50% 50%;background-repeat:no-repeat;height:24px;width:24px}@keyframes rotateSpinner{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}
+.fb_iframe_widget{display:inline-block;position:relative}.fb_iframe_widget span{display:inline-block;position:relative;text-align:justify}.fb_iframe_widget iframe{position:absolute}.fb_iframe_widget_fluid_desktop,.fb_iframe_widget_fluid_desktop span,.fb_iframe_widget_fluid_desktop iframe{max-width:100%}.fb_iframe_widget_fluid_desktop iframe{min-width:220px;position:relative}.fb_iframe_widget_lift{z-index:1}.fb_iframe_widget_fluid{display:inline}.fb_iframe_widget_fluid span{width:100%}
+.fb_customer_chat_bounce_in_v2{animation-duration:300ms;animation-name:fb_bounce_in_v2;transition-timing-function:ease-in}.fb_customer_chat_bounce_out_v2{animation-duration:300ms;animation-name:fb_bounce_out_v2;transition-timing-function:ease-in}.fb_customer_chat_bounce_in_v2_mobile_chat_started{animation-duration:300ms;animation-name:fb_bounce_in_v2_mobile_chat_started;transition-timing-function:ease-in}.fb_customer_chat_bounce_out_v2_mobile_chat_started{animation-duration:300ms;animation-name:fb_bounce_out_v2_mobile_chat_started;transition-timing-function:ease-in}.fb_customer_chat_bubble_pop_in{animation-duration:250ms;animation-name:fb_customer_chat_bubble_bounce_in_animation}.fb_customer_chat_bubble_animated_no_badge{box-shadow:0 3px 12px rgba(0, 0, 0, .15);transition:box-shadow 150ms linear}.fb_customer_chat_bubble_animated_no_badge:hover{box-shadow:0 5px 24px rgba(0, 0, 0, .3)}.fb_customer_chat_bubble_animated_with_badge{box-shadow:-5px 4px 14px rgba(0, 0, 0, .15);transition:box-shadow 150ms linear}.fb_customer_chat_bubble_animated_with_badge:hover{box-shadow:-5px 8px 24px rgba(0, 0, 0, .2)}.fb_invisible_flow{display:inherit;height:0;overflow-x:hidden;width:0}.fb_mobile_overlay_active{background-color:#fff;height:100%;overflow:hidden;position:fixed;visibility:hidden;width:100%}@keyframes fb_bounce_in_v2{0%{opacity:0;transform:scale(0, 0);transform-origin:bottom right}50%{transform:scale(1.03, 1.03);transform-origin:bottom right}100%{opacity:1;transform:scale(1, 1);transform-origin:bottom right}}@keyframes fb_bounce_in_v2_mobile_chat_started{0%{opacity:0;top:20px}100%{opacity:1;top:0}}@keyframes fb_bounce_out_v2{0%{opacity:1;transform:scale(1, 1);transform-origin:bottom right}100%{opacity:0;transform:scale(0, 0);transform-origin:bottom right}}@keyframes fb_bounce_out_v2_mobile_chat_started{0%{opacity:1;top:0}100%{opacity:0;top:20px}}@keyframes fb_customer_chat_bubble_bounce_in_animation{0%{bottom:6pt;opacity:0;transform:scale(0, 0);transform-origin:center}70%{bottom:18pt;opacity:1;transform:scale(1.2, 1.2)}100%{transform:scale(1, 1)}}</style><style id="menuSlideDynamic">.loading .circle { margin: 276px auto;}.loading .circle1 { top: -316px;}</style><style id="pageSlideDynamic">.main-layout .main-layout-contents { height: 472px; }.main-layout .main-layout-subview { height: 586px; }.account-select-content{width: 1360px;}.account-select-content .scroller li {width: 1360px;}.account-select-content .scroller{width: 2720px;}</style></head>
+<body style="background-color: rgb(241, 241, 241);">
+<div style="display: block; visibility: hidden;" id="hideAll">&nbsp;</div>
+<script type="text/javascript">
+    document.getElementById("hideAll").style.display = "block";
+    document.onreadystatechange = function () {
+        var state = document.readyState
+        if (state == 'complete') {
+            setTimeout(function(){
+                document.getElementById('hideAll').style.visibility="hidden";
+            },1000);
+        }
+    }
+</script>
+<div id="div-pinpad" onclick="" style="display: none; height:100%;width:100%;z-index: 1999;position: absolute; background-color: #471C51 !important">
+    <div class="gradient-background-layer-pinpad"></div>
+    <div align="center" id="logo"><img src="./assets/images/TPBank-logo.png" height="25px"></div>
+    <div align="center" id="divider"><img src="./assets/images/hdivider.png" style="width:100%;"></div>
+    <br>
+
+    <!--<img src="../assets/images/diamond.png" style="height: 234px; width: 300px; right: 0; position: absolute; bottom: 20%; background-repeat: no-repeat; background-position: center; background-size: cover; z-index: -1000;" />-->
+    <p id="title_lock" class="pass_button" align="center" style="padding-top: 8%; font-size: large;">Nhập mã PIN</p>
+
+    <div id="enter_code" align="center">
+        <div class="input_pass" align="center">
+            <svg height="30" width="30">
+                <circle id="pass_one" cx="15" cy="15" r="6" stroke="white" stroke-width="1" fill="none"></circle>
+            </svg>
+        </div>
+        <div class="input_pass" align="center">
+            <svg height="30" width="30">
+                <circle id="pass_two" cx="15" cy="15" r="6" stroke="white" stroke-width="1" fill="none"></circle>
+            </svg>
+        </div>
+        <div class="input_pass" align="center">
+            <svg height="30" width="30">
+                <circle id="pass_three" cx="15" cy="15" r="6" stroke="white" stroke-width="1" fill="none"></circle>
+            </svg>
+        </div>
+        <div class="input_pass" align="center">
+            <svg height="30" width="30">
+                <circle id="pass_four" cx="15" cy="15" r="6" stroke="white" stroke-width="1" fill="none"></circle>
+            </svg>
+        </div>
+        <div class="input_pass" align="center">
+            <svg height="30" width="30">
+                <circle id="pass_five" cx="15" cy="15" r="6" stroke="white" stroke-width="1" fill="none"></circle>
+            </svg>
+        </div>
+        <div class="input_pass" align="center">
+            <svg height="30" width="30">
+                <circle id="pass_six" cx="15" cy="15" r="6" stroke="white" stroke-width="1" fill="none"></circle>
+            </svg>
+        </div>
+
+    </div>
+    <p id="error_message" class="pass_button" align="center" style="visibility:hidden; font-size: larger;">message</p>
+
+    <div id="number_pass" align="center" style="z-index:3; padding-top: 5%;">
+        <table id="table_pass" style="z-index:3; position: absolute;" cellspacing="0" cellpadding="0">
+            <tbody><tr style="padding-bottom: 0px; ">
+                <td class="common" align="top|justify" style="padding-top: 0px; padding-bottom: 0px;">
+                    <div id="pass1" class="pass_button" align="top|justify">
+                        <p class="pass_number">1</p>
+                    </div>
+                </td>
+                <td class="common" style="padding-top: 0px; padding-bottom: 0px;">
+                    <div id="pass2" class="pass_button">
+                        <p class="pass_number">2</p>
+
+                        <p class="pass_text">ABC</p>
+                    </div>
+                </td>
+                <td class="common" style="padding-top: 0px; padding-bottom: 0px;">
+                    <div id="pass3" class="pass_button" align="center">
+                        <p class="pass_number">3</p>
+
+                        <p class="pass_text">DEF</p>
+                    </div>
+                </td>
+            </tr>
+            <tr style="padding-top: 0px; padding-bottom: 0px;">
+                <td class="common" style="padding-top: 0px; padding-bottom: 0px;">
+                    <div id="pass4" class="pass_button" align="center">
+                        <p class="pass_number" align="center">4</p>
+
+                        <p class="pass_text">GHI</p>
+                    </div>
+                </td>
+                <td class="common" style="padding-top: 0px; padding-bottom: 0px;">
+                    <div id="pass5" class="pass_button">
+                        <p class="pass_number">5</p>
+
+                        <p class="pass_text">JKL</p>
+                    </div>
+                </td>
+                <td class="common" style="padding-top: 0px; padding-bottom: 0px;">
+                    <div id="pass6" class="pass_button" align="center">
+                        <p class="pass_number">6</p>
+
+                        <p class="pass_text">MNO</p>
+                    </div>
+                </td>
+            </tr>
+            <tr style="padding-top: 0px; padding-bottom: 0px;">
+                <td class="common" style="padding-top: 0px; padding-bottom: 0px;">
+                    <div id="pass7" class="pass_button" align="center">
+                        <p class="pass_number">7</p>
+
+                        <p class="pass_text">PQRS</p>
+                    </div>
+                </td>
+                <td class="common" style="padding-top: 0px; padding-bottom: 0px;">
+                    <div id="pass8" class="pass_button" align="center">
+                        <p class="pass_number">8</p>
+
+                        <p class="pass_text">TUV</p>
+                    </div>
+                </td>
+                <td class="common" style="padding-top: 0px; padding-bottom: 0px;">
+                    <div id="pass9" class="pass_button" align="center">
+                        <p class="pass_number">9</p>
+
+                        <p class="pass_text">WXYZ</p>
+                    </div>
+                </td>
+            </tr>
+            <tr style="padding-top: 0px;">
+                <td style="padding-top: 0px; padding-bottom: 0px;" class="common">
+                    <div id="passExit" class="pass_button" align="center">
+                        <p class="pass_number" id="p-exit-pin">Hủy</p>
+                    </div>
+                </td>
+                <td class="common" style="padding-top: 0px; padding-bottom: 0px;">
+                    <div id="pass0" class="pass_button" align="center">
+                        <p class="pass_number">0</p>
+                    </div>
+                </td>
+                <td align="center" class="common">
+                    <div id="passClear" class="pass_button" align="center"><p class="pass_number" id="p-delete-pin">Xóa</p>
+                </div></td>
+            </tr>
+        </tbody></table>
+    </div>
+</div>
+
+<div align="center" id="bodyPage" class="fullPage">
+<div style="background-color: rgba(73, 21, 115, 0.7);">
+    <div id="header-desktopmode" style="display: block;">
+        <div class="box_layout_lienhe" id="box_lienhe" style="height:42px">
+            <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                <tbody><tr>
+                    <td style="">
+                        <div id="headerLogo"><a href="https://tpb.vn/"><img src="./assets/images/TPBank-logo.png" height="32px" style="cursor: pointer"></a></div>
+                    </td>
+                    <td style="float: right;">
+                        <div class="bg_top_lienhe"></div>
+                        <div>
+                            <div class="bg_center_lienhe" style="text-align: right;">
+                                <div style="padding: 10px 0px 5px 13px; font-size: 12px;">
+                                    <div style="color: #eee; padding-bottom: 10px">
+                                    <div id="notification-id" class="header-logo-change1" style="float: left;height: 30px;margin-left: 125px;" onclick="window.open('https://tpb.vn/lien-he/')">
+                                        <p style="color: #eee ;border-right: 1px solid rgba(255,255,255,0.2);border-left: 1px solid rgba(255,255,255,0.2);" class="icon-contact-us"></p>
+                                    </div>
+                                    <a style="padding-left: 7px;" class="pageFooterDesktop-color" href="tel:1900 585 885 ">1900 585 885</a>
+                                        &nbsp;
+                                        <!-- 20180402 ngocdt3 chinh sua yeu cau CNT00015266-->
+                                   <!-- <a style="border-right: 1px solid rgba(255,255,255,0.2);border-left: 1px solid rgba(255,255,255,0.2); " class="pageFooterDesktop-color" href="tel:1800 58 58 85">&nbsp 1800 58 58 85 &nbsp</a>-->
+                                        &nbsp;
+                                    <a class="pageFooterDesktop-color" href="tel:02437683683">024 376 83683</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bg_botton_lienhe"></div>
+                    </td>
+                    <td width="15%">
+                        <div id="headerdk" class="header-logo-change">
+                            <div class="header-logo-change2" id="btnChangLanguageIB" style="visibility: hidden; backface-visibility: hidden;"><img class="languageEnglishFlag" src="./assets/images/english.png" onclick="changeLanguageOnIB()" style="width: 30px; vertical-align: baseline !important;"></div>
+                            <div class="header-logo-change1" onclick="openLinkInWindows('https://tpb.vn/promotion/hot-offers?utm_source=ebank&amp;utm_medium=click%20&amp;utm_campaign=main-ebank-uu-dai');">
+                                <p style="margin: 10px 0 10px; color: #eee ;border-right: 1px solid rgba(255,255,255,0.2);
+    " class="icon-promotions"></p>
+                            </div>
+
+                            <div id="notification-id" class="header-logo-change1" onclick="navController.pushToView('notification/list_notification_scr', true, 'xsl');">
+                                <p style="margin: 10px 0 10px; color: #eee ;border-right: 1px solid rgba(255,255,255,0.2);border-left: 1px solid rgba(255,255,255,0.2);" class="icon-notification"></p>
+                            </div>
+                            <div class="notificationId ripple-add-on" style="display:none">
+                                <p class="icon-contact-us"></p>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+            </tbody></table>
+        </div>
+    </div>
+</div>
+<div id="user-background-imageDesktop" class="gradient-background-layerDesktop"> </div>
+<div id="fullPage" align="center" style="height: 559px; top: 0px; position: fixed; bottom: 0px; right: 0px; left: 0px; animation-name: slideInFull; margin: auto;">
+<div id="pageHeader" style="display: block;">
+    <!--<table width="100%" cellspacing="0" cellpadding="0" border="0">-->
+        <!--<tr>-->
+            <!--<td style="padding-top:0px;padding-bottom:0px;">-->
+                <!--<table width="100%" border="0" cellpadding="0" cellspacing="0" style="height: 105px;">-->
+                    <!--<tr>-->
+                        <!--<td width="30"></td>-->
+                        <!--<td width="190" valign="middle" style="padding-top:0px;padding-bottom:0px;"><a-->
+                                <!--href="https://tpb.vn" target="_blank"> <img src="./promotion/logo.png" alt=""/> </a>-->
+                        <!--</td>-->
+                        <!--<td width="204"></td>-->
+                        <!--<td width="500">-->
+                            <!--<div id="slideShow" style="float:right; height:91px;">-->
+                            <!--</div>-->
+                        <!--</td>-->
+                        <!--<td width="80"></td>-->
+                    <!--</tr>-->
+                <!--</table>-->
+            <!--</td>-->
+        <!--</tr>-->
+    <!--</table>-->
+</div>
+<!--<div class="desktopmode">-->
+    <!--<div class="box_layout_lienhe" id="box_lienhe">-->
+        <!--<table border="0" cellpadding="0" cellspacing="0">-->
+            <!--<tr>-->
+                <!--<td>-->
+                    <!--<div class="bg_top_lienhe"></div>-->
+                    <!--<div style="width: 211px; height: auto;">-->
+                        <!--<div class="bg_center_lienhe" style="text-align: left;">-->
+                            <!--<div style="padding: 5px 13px 5px 13px; font-size: 12px;">-->
+                                <!--<div style="font-weight: bold; padding-bottom: 10px;"><span id="spanLoginContact">LOGIN_CONTACT</span>-->
+                                <!--</div>-->
+                                <!--<div><span id="spanCustomerService">LOGIN_CUSTOMER_SERVICE</span></div>-->
+                                <!--<div style="color: #f37021; padding-bottom: 10px">1800 58 58 85 | 043 7.683.683</div>-->
+                                <!--<div style="padding-bottom: 10px;"><a class='ref-link'-->
+                                                                      <!--onClick="openLinkInWindows('https://tpb.vn/chi-nhanh/');"-->
+                                                                      <!--style="text-decoration: none;"><span-->
+                                        <!--id="spanLoginBranch">LOGIN_BRANCH</span></a> | <a class='ref-link'-->
+                                                                                          <!--onClick="openLinkInWindows('https://tpb.vn/mang-luoi-atm/');"-->
+                                                                                          <!--style="text-decoration: none;"><span-->
+                                        <!--id="spanLoginATM">LOGIN_ATM</span></a></div>-->
+                                <!--<div style="padding-bottom: 10px;"><a class='ref-link'-->
+                                                                      <!--onClick="openLinkInWindows('https://tpb.vn/lien-he/');"-->
+                                                                      <!--style="text-decoration: none;"><span-->
+                                        <!--id="spanLoginEmail">LOGIN_EMAIL</span></a> | <a class='ref-link'-->
+                                                                                        <!--onClick="openLinkInWindows('https://webchat.tpb.vn/WebchatASP/');"-->
+                                                                                        <!--style="text-decoration: none;"><span-->
+                                        <!--id="spanLoginChat">LOGIN_CHAT</span></a></div>-->
+                            <!--</div>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                    <!--<div class="bg_botton_lienhe"></div>-->
+                <!--</td>-->
+            <!--</tr>-->
+        <!--</table>-->
+    <!--</div>-->
+<!--</div>-->
+<div id="menu-section" class="menu-layout" style="display: block; opacity: 0.95; left: 0px; transform: none; height: 525.5px;">
+<div class="menu-header">
+    <div id="menu-profile-avatar" class="menu-profile-container">
+        <img style="width: 100%" src="./assets/images/acc-info-img.png">
+        <span class="icon-user2 menu-profile-icon"></span>
+    <span id="link_change_avatar" style="display: none;">Thay đổi</span></div>
+     <span id="menu-profile-name" class="menu-profile-name">TRAN THI HUONG<br><span class="cifval">CIF: 00389167</span></span>
+<div id="header_down_narrow" class="header-down-narrow" onclick="showCustomerInfo()"><span class="icon-movenext"></span></div><div id="header_div_logout" class="btnshadow btn-second ripple-add-on" style="width: 27%;border-radius: 10px;height: 30px; background: #f3e5f5" onclick="logoutExit()"><span style="bottom: 20%; right: 30%;font-size: 12px;font-weight: bold;color: #fb8c00">Thoát</span><span class="icon-logout" style="margin-left: -15px; bottom: 20%; right: 30%; color: #fb8c00"></span></div></div>
+<div id="wrapper-menu" style="position: absolute; width: 260px; height: 552px; overflow-y: hidden;">
+<div id="scroller-menu" style="position: relative; width: 260px;">
+<ul id="menu.slideview" class="menu-layout-contents" style="position: relative;"><li id="mHomePage" class="menu-style-li"><div id="menuStyle_0" class="newClassMenu" onclick="updateAccountListInfo(); gotoHomePage();MenuHome('mHomePage','textMenu_0')"><em class="icon-homepage"></em><div id="textMenu_0" class="langNoStyle" style="color: rgb(66, 66, 66);">Trang chủ</div><span>1</span></div></li><li id="mAccInfo" class="menu-style-li"><div id="menuStyle_1" class="newClassMenu" onclick="initMenuDetail('mAccInfo');setTitleBar('Tài khoản');MenuHome('mAccInfo','textMenu_1')"><em class="icon-accounts"></em><div id="textMenu_1" class="langNoStyle" style="color: rgb(66, 66, 66);">Tài khoản</div><span>1</span></div></li><li id="transfer" class=" bg-transparent"><div id="menuStyle_2" class="newClassMenu" onclick="initMenuDetail('transfer');setTitleBar('Chuyển tiền');MenuHome('transfer','textMenu_2')"><em class="icon-fund-transfer"></em><div id="textMenu_2" class="langNoStyle" style="color: rgb(255, 140, 41);">Chuyển tiền</div><span>1</span></div></li><li id="payment" class="menu-style-li"><div id="menuStyle_3" class="newClassMenu" onclick="initMenuDetail('payment');setTitleBar('Thanh toán dịch vụ');MenuHome('payment','textMenu_3')"><em class="icon-payments"></em><div id="textMenu_3" class="langNoStyle" style="color: rgb(66, 66, 66);">Thanh toán dịch vụ</div><span>1</span></div></li><li id="egoldpayment" class="menu-style-li"><div id="menuStyle_4" class="newClassMenu" onclick="initMenuDetail('egoldpayment');setTitleBar('Mua bán vàng');MenuHome('egoldpayment','textMenu_4')"><em class="icon-gold_payment"></em><div id="textMenu_4" class="langNoStyle" style="color: rgb(66, 66, 66);">Mua bán vàng</div><span>1</span></div></li><li id="esaving" class="menu-style-li"><div id="menuStyle_5" class="newClassMenu" onclick="initMenuDetail('esaving');setTitleBar('Tiết kiệm');MenuHome('esaving','textMenu_5')"><em class="icon-savings"></em><div id="textMenu_5" class="langNoStyle" style="color: rgb(66, 66, 66);">Tiết kiệm</div><span>1</span></div></li><li id="mLoan" class="menu-style-li"><div id="menuStyle_6" class="newClassMenu" onclick="initMenuDetail('mLoan');setTitleBar('Khoản vay');MenuHome('mLoan','textMenu_6')"><em class="icon-loans"></em><div id="textMenu_6" class="langNoStyle" style="color: rgb(66, 66, 66);">Khoản vay</div><span>1</span></div></li><li id="cardservice" class="menu-style-li"><div id="menuStyle_7" class="newClassMenu" onclick="initMenuDetail('cardservice');setTitleBar('Dịch vụ thẻ');MenuHome('cardservice','textMenu_7')"><em class="icon-cards"></em><div id="textMenu_7" class="langNoStyle" style="color: rgb(66, 66, 66);">Dịch vụ thẻ</div><span>1</span></div></li><li id="jumboAcc" class="menu-style-li"><div id="menuStyle_8" class="newClassMenu" onclick="initMenuDetail('jumboAcc');setTitleBar('Tài khoản EasyLink ');MenuHome('jumboAcc','textMenu_8')"><em class="icon-easylink"></em><div id="textMenu_8" class="langNoStyle" style="color: rgb(66, 66, 66);">Tài khoản EasyLink </div><span>1</span></div></li><li id="loyalty" class="menu-style-li"><div id="menuStyle_9" class="newClassMenu" onclick="initMenuDetail('loyalty');setTitleBar('Khách hàng thân thiết');MenuHome('loyalty','textMenu_9')"><em class="icon-loyalty"></em><div id="textMenu_9" class="langNoStyle" style="color: rgb(66, 66, 66);">Khách hàng thân thiết</div><span>1</span></div></li><li id="utilities" class="menu-style-li"><div id="menuStyle_10" class="newClassMenu" onclick="initMenuDetail('utilities');setTitleBar('Tiện ích khác');MenuHome('utilities','textMenu_10')"><em class="icon-utilities"></em><div id="textMenu_10" class="langNoStyle" style="color: rgb(66, 66, 66);">Tiện ích khác</div><span>1</span></div></li><li id="setting" class="menu-style-li"><div id="menuStyle_11" class="newClassMenu" onclick="initMenuDetail('setting');setTitleBar('Cài đặt');MenuHome('setting','textMenu_11')"><em class="icon-settings"></em><div id="textMenu_11" class="langNoStyle" style="color: rgb(66, 66, 66);">Cài đặt</div><span>1</span></div></li><li id="paymentAirline" class="menu-style-li"><div id="menuStyle_12" class="newClassMenu" onclick="reDirectToVnpay();"><em class="icon-thanh-toan-ve-may-bay-qua-VNPay-01"></em><div id="textMenu_12" class="langNoStyle" style="color: rgb(66, 66, 66);">Đặt vé máy bay</div><span>1</span><img src="./assets/images/new_logo.png" width="30" height="25"></div></li><li id="logout_link" class="desktop-mode" onclick="logoutExit()"><div><em class="icon-logout"></em><div class="langNoStyle" style="color: rgb(66, 66, 66);">Thoát</div></div></li><li id="quick_default_menu_btn" style="display: none;padding-top:17px"><div style="background-color: #f69013; width: 92%; font-size: 14px; font-weight: bold; color: #fff; border-style: hidden;border-radius:20px;" onclick="quickChangeMenuStyleDefault(true)" targetmenustyle="default"><em class="icon-circle-down icon-style"></em><div class="langNoStyle" id="quick">Hiển thị đầy đủ tính năng</div></div></li><li id="quick_simple_menu_btn" style="padding-top: 17px; display: none;"><div style="background-color: #f69013; width:92%; font-size: 14px; font-weight: bold; color: #fff; border-style: hidden;border-radius:20px" onclick="quickChangeMenuStyleSimple(true)" targetmenustyle="simple"><em class="icon-circle-up icon-style"></em><div class="langNoStyle" id="quick">Hiển thị tính năng cơ bản</div></div></li><li id="quick_custom_menu_btn" class="menu-style-li" style="padding-top: 17px;"><div style="border-radius: 20px; background-color: #ff8c29; width: 92%; font-size: 14px; font-weight: bold; color: #fff; border-style: hidden; margin: 0 0 0 0;" onclick="quickChangeMenuStyleCustom(this)" targetmenustyle="custom"><em class="icon-circle-right icon-style"></em><div class="langNoStyle" id="quick">Tùy chỉnh hiển thị tính năng</div></div></li><li id="final_li"><div style="; width: 233px; font-size: 15px; font-weight: bold; color: #fff; border-style: hidden;visibility:hidden;"></div></li><li id="img_QRCode" style=";text-align: center; background-color: #fff;"><img style="; width: 120px; height: 120px;" id="final_li_imgQR" src=""></li><li id="final_li_2"><div style="; width: 233px; font-size: 15px; font-weight: bold; color: #fff; border-style: hidden;display:none;"></div></li></ul>
+</div>
+
+
+<div id="bg-customer-info" style="display: none;"> <div class="table-customer-info"><ul><li><span class="list-style"></span><span class="label-left-menu">Họ tên</span><span class="infor-left-value" id="cus-profile-fullname">TRAN THI HUONG</span></li><li><span class="list-style"></span><span class="label-left-menu">Ngày sinh</span><span class="infor-left-value" id="cus-profile-birthday">24/02/1987</span></li><li><span class="list-style"></span><span class="label-left-menu">Số CMND/Hộ chiếu</span><span class="infor-left-value" id="cus-profile-userid">012648677</span></li><li id="cus-profile-address" style="word-break: break-word;"><span class="list-style"></span><span class="label-left-menu" style="padding-right: 20px;">Địa chỉ hiện tại</span><span class="infor-left-value" id="cus-profile-address"></span> 548 NGO GIA TU - LONG BIEN-HN   </li><li><span class="list-style"></span><span class="label-left-menu">Điện thoại</span><span class="infor-left-value" id="cus-profile-mobile">032 899 8838</span></li><li><span class="list-style"></span><span class="label-left-menu">Email</span><span class="infor-left-value" id="cus-profile-email">TRANHUONG242@GMAIL.COM</span></li><li><span class="list-style"></span><span class="label-left-menu">Mã khách hàng</span><span class="infor-left-value" id="cus-profile-cif">00389167</span></li></ul></div><div id="btn_edit_information" onclick="gotoEditCustomerInfo()"><span class="langNoStyle ttkhbt ">Chỉnh sửa</span></div></div></div>
+<!--SANGNT1 Share bottom-->
+<div class="menu-layout-share">
+    <a href="http://www.facebook.com/sharer/sharer.php?u=https://tpb.vn/ngan-hang-dien-tu-ebank" onclick="javascript: openLinkInWindows(this.href);return false;" target="_blank" title="Share on Facebook" style="float:left;margin-left:8px;margin-right:1px;">
+        <img src="./assets/images/facebook-icon.png">
+    </a>
+    <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://tpb.vn/ngan-hang-dien-tu-ebank" onclick="javascript:openLinkInWindows(this.href);return false;" target="_blank" title="Share on LinkedIn" style="float:left;margin-left:1px;margin-right:1px;">
+        <img src="./assets/images/ic_linkedin.png">
+    </a>
+
+
+    <a href="https://plus.google.com/share?url=https://tpb.vn/ngan-hang-dien-tu-ebank" onclick="javascript:openLinkInWindows(this.href);return false;" target="_blank" title="Share on Google+" style="float:left;margin-left:1px;">
+        <img src="./assets/images/google-plus-icon.png">
+
+    </a>
+    <!--<div style="float:left;margin-left:1px;margin-right:1px;" onclick="navController.initWithRootView('introducexsl/introduce-rule-customer', true, 'xsl');">
+      <img src="./assets/images/ic_friend_intro.png"/>
+    </div>-->
+
+</div>
+
+
+</div>
+<div id="mainview" class="main-layout" style="float: left; border-left-style: none; border-right-style: none; display: block; opacity: 1; transition-property: -webkit-transform; transition-duration: 500ms; height: 525px; background: rgba(255, 255, 255, 0.85); transform: translate(0px, 0px) translateZ(0px); width: 1110px;">
+    <div id="user-background-image" class="gradient-background-layer-0"></div>
+    <div class="gradient-background-layer-1"></div>
+    <!--<div class="gradient-background-layer-2"></div>-->
+    <!--<div class="gradient-background-layer-3"></div>-->
+    <div id="headermb" class="header" style="display: none;">
+        <div class="notificationId ripple-add-on" id="btnChangLanguage" style="display: none;"><img src="./assets/images/english.png" onclick="changeLanguageOnIB()" style="width: 30px; vertical-align: baseline !important;"></div>
+        <div class="notificationId ripple-add-on" onclick="openLinkInWindows('https://tpb.vn/promotion/hot-offers?utm_source=ebank&amp;utm_medium=click%20&amp;utm_campaign=main-ebank-uu-dai');">
+            <p class="icon-promotions"></p>
+        </div>
+		<!--
+        <div class="notificationId ripple-add-on" onClick="showQRCodeView();" id="id.qrcode.btn" style="right: 70px;display:none;">
+            <div class='icon-qrcode'></div>
+        </div>-->
+
+        <!-- SANGNT1 Notification icon top-->
+        <div id="notification-id" class="notificationId ripple-add-on" onclick="navController.pushToView('notification/list_notification_scr', true, 'xsl');">
+            <p class="icon-notification"></p>
+        </div>
+        <a href="tel:1900 585 885 ">
+            <div class="notificationId ripple-add-on" style="position: absolute;
+    color: rgb(255, 255, 255);
+    right: 126px;
+    display: block;">
+                <p class="icon-contact-us"></p>
+            </div>
+        </a>
+
+        <!--end SANGNT1 Notification icon top-->
+    </div>
+    <!--<div id="headerib" class="header" style="height:30px;display:none;">-->
+        <!--&lt;!&ndash;<div style="color:#333;font-size:12px;text-align: left;margin-top: 8px;margin-left: 10px;font-weight: bold;color:#fff;">&ndash;&gt;-->
+            <!--&lt;!&ndash;&lt;!&ndash;<span>MAIN_SCR_HEADER_TITLE</span>&ndash;&gt;&ndash;&gt;-->
+            <!--&lt;!&ndash;<div class="langNoStyle" id="lblChangLanguage"></div>&ndash;&gt;-->
+        <!--&lt;!&ndash;</div>&ndash;&gt;-->
+
+
+        <!--&lt;!&ndash;<div class="reload-button" style="margin-right: 35px;" onClick="navController.resetBranchView();"><em class="icon-spinner"></em></div>&ndash;&gt;-->
+        <!--<div class="help divImgFeedback" id="btnFeedback" style="display:none"><img-->
+                <!--src="assets/images/TPBank-feedback-logo-vie.png" height="22px" class="html5logo"-->
+                <!--onclick="Html2Canvas(this);"></div>-->
+        <!--<div class="reload-button" onClick="window.open('https://tpb.vn/diem-uu-dai-va-khuyen-mai/Index.aspx')"><em-->
+                <!--class="icon-gift"></em></div>-->
+    <!--</div>-->
+    <div align="center">
+        <div id="tabHostIndicator" style="display: none;"><span class="window8-1"></span> <span class="window8-2"></span>
+            <span class="window8-3"></span> <span class="window8-4"></span> <span class="window8-5"></span> <span class="window8-6"></span> <span id="tabHostLoadingMsg" style="display: block;"></span>
+        </div>
+        <div id="tabHostFailMsg" style="display: none;"></div>
+    </div>
+    <div id="tabHost" style="position: relative; width: 100%; height: 100%; opacity: 1;"><div xmlns="http://www.w3.org/1999/xhtml" id="mainViewContent" class="main-layout-subview" style="height: 421px; top: 44px; bottom: 0px;"><div><div id="reviewInfo" class="panelContent fix02-backgroud-color">
+<table width="100%" align="center">
+<tbody><tr><td colspan="2"><div id="seqFormReview"><table xmlns="http://www.w3.org/1999/xhtml" width="357" align="center" cellspacing="0" cellpadding="0" border="0" style="margin:auto" class="sequence-form-302"><tbody><tr>
+<td width="33%"><span>Nhập</span></td>
+<td width="33%" class="selected"><span>Xác thực</span></td>
+<td width="33%"><span>Hoàn tất</span></td>
+</tr></tbody></table></div></td></tr>
+<tr></tr>
+<tr scrinfo=""><td colspan="2"><h5 class="Header" style="display:none;">Thông tin tài khoản</h5></td></tr>
+<tr><td colspan="2"><div align="center"><div id="recycler_list" class="recycler-list"><table style="width: 100%" id="recycler_table_ebank" class="recycler-table-ebank"><tbody><tr class="recycler-row-parity"><td class="recycler-row-align-midle-left" style="width:25%;">Loại giao dịch</td><td class="recycler-row-align-midle-right" style="width:25%;font-weight:bold;">Chuyển tiền nhanh</td><td class="recycler-row-align-midle-left" style="width:25%;">Nội dung chuyển tiền</td><td class="recycler-row-align-midle-right" style="width:25%;font-weight:bold;">huongtt</td></tr><tr class="recycler-row-as"><td class="recycler-row-align-midle-left" style="width:25%;">Phí</td><td class="recycler-row-align-midle-right" style="width:25%;font-weight:bold;">0 VND</td><td class="recycler-row-align-midle-left" style="width:25%;">Ngày hiệu lực</td><td class="recycler-row-align-midle-right" style="width:25%;font-weight:bold;">Chuyển tiền chỉ một lần vào ngày 21/07/2019</td></tr></tbody></table></div></div></td></tr>
+<tr scrinfo=""><td colspan="2"><h5 class="Header" style="display:none;">Thông tin giao dịch</h5></td></tr>
+<tr><td colspan="2"><div align="center"><div align="center" id="recycler_list" class="recycler-list"><table style="width: 100%" id="recycler_table_ebank" class="recycler-table-ebank"><tbody><tr class="recycler-row-normal"><td class="recycler-row-align-midle-left">Ngân hàng</td><td class="recycler-row-align-midle-right">Ngân hàng Kỹ thương Việt Nam-Hà Nội</td></tr><tr class="recycler-row-normal"><td class="recycler-row-align-midle-left">Tài khoản nhận</td><td class="recycler-row-align-midle-right">1902 8754 3790 17</td></tr><tr class="recycler-row-normal"><td class="recycler-row-align-midle-left">Chủ tài khoản nhận</td><td class="recycler-row-align-midle-right">TRAN THI HUONG</td></tr></tbody></table></div></div></td></tr>
+<tr scrinfo=""><td colspan="2"><h5 class="Header" style="display:none;">Chuyển tới</h5></td></tr>
+<tr><td colspan="2"><div align="center"><div id="recycler_list" class="recycler-list"><table style="width: 100%" id="recycler_table_ebank" class="recycler-table-ebank"><tbody><tr class="recycler-row-parity"><td class="recycler-row-align-midle-left" style="width:50%;">Số tiền</td><td class="recycler-row-align-midle-right" style="width:50%;font-weight:bold;">10,000 VND</td></tr></tbody></table></div></div></td></tr>
+<tr><td colspan="2"><div id="show-info"></div></td></tr>
+<tr><td colspan="2"><div id="pageIndicatorNums" style="float:right"></div></td></tr>
+<tr class="desktopmode" id="result-export-print" style="display:none;"><td colspan="2"><div align="right" style="padding-right: 5px;"><a href="javascript:void(0)" onclick="printResultHistory();"><img title="In trang này" style="margin-right:5px;" src="css/img/print.png"></a></div></td></tr>
+</tbody></table>
+<table width="100%">
+<tbody><tr align="center"><td><div style="text-align: center;">
+<input class="btnshadow-after btn-second-desktop-after" onclick="clickHomeOrBack()" type="submit" value="Quay lại" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="off"><input class="btnshadow-after btn-second-after btn-changecolor" onclick="btnCancelClick()" type="submit" value="Hủy" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="off"><input id="trCancel" class="btnshadow-after btn-second-after" onclick="sendJSONRequest()" type="button" value="Tiếp tục" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="off">
+</div></td></tr>
+<tr class="trow-space"></tr>
+<tr><td colspan="3"><div id="note_mca" style="display: none;"><span class="notestyle">Xác thực bằng chữ ký số mCA</span></div></td></tr>
+<tr><td colspan="3"><div id="note_finger" style="display: none;"><span class="notestyle">Quý khách vui lòng chạm ngón tay để xác nhận.</span></div></td></tr>
+</tbody></table>
+</div></div></div></div>
+    <div id="pageJS"><script type="text/javascript">/**
+ * Created by HuyNT2
+ * User: 
+ * Date: 12/17/13
+ * Time: 5:35 PM
+ */
+var pageIndex = 1;//CURRENT PAGE
+var itemsPerPage = 5;//3 DÒNG/ TRANG
+var totalItems = 9;//TỔNG SỐ DÒNG
+var totalPages = 0;
+var strXml = "";
+/*** HEADER ***/
+var gprsResp = new GprsRespObj("","","","");
+var XmlLocal;
+page_html=false;
+
+/*** INIT VIEW ***/
+function loadInitXML() {
+	var tmpXml = getReviewXmlStore();
+	XmlLocal = tmpXml;
+	if (strXml == '' || strXml == undefined){
+		strXml = XMLToString(tmpXml);
+	}
+	xml_review=strXml;
+	logInfo(xml_review);
+    tmpXml = convertToNewStructureXML(strXml);
+    XmlLocal = tmpXml;
+    strXml = XMLToString(tmpXml);
+
+	return tmpXml;
+}
+
+function viewBackFromOther() {
+    logInfo('Back from other view');
+
+//	setDefaultInfo(newCusInfoObj);
+}
+/*** INIT VIEW END ***/
+
+function convertToNewStructureXML(strXml) {
+    var parser = new DOMParser();
+    xmlDoc = parser.parseFromString(strXml,"text/xml");
+	
+    // create new documnet
+    var newDoc = createXMLDoc();
+    var tmpXmlRootNode = createXMLNode('review', '', newDoc);
+    //review/reviewtitle //screen title
+    // check
+
+    //var tmpXmlReviewTitle = createXMLNode('reviewtitle', xmlDoc.getElementsByTagName("reviewtitle")[0].firstChild.nodeValue, newDoc, tmpXmlRootNode);
+    var tagReviewTitle = xmlDoc.getElementsByTagName("reviewtitle");
+    var tmpXmlReviewTitle = null;
+    if(tagReviewTitle != null && tagReviewTitle[0] != undefined)
+    {
+        if (tagReviewTitle[0].firstChild != null)
+        {
+            tmpXmlReviewTitle = createXMLNode('reviewtitle', tagReviewTitle[0].firstChild.nodeValue,
+                newDoc, tmpXmlRootNode);
+        }
+    }
+
+    //review/reviewinfo/reviewtranstitle
+    var tagReviewInfoXml = xmlDoc.getElementsByTagName("reviewinfo");
+    var tagTs = '';
+	var tagDKDK;
+    for (i=0; i< tagReviewInfoXml.length;i++) {
+        tagTs = tagReviewInfoXml[i].getElementsByTagName("transinfo");
+        tagReviewTranTitle = tagReviewInfoXml[i].getElementsByTagName("reviewtranstitle");
+		tagDKDK =tagReviewInfoXml[i].getElementsByTagName("conditioncontent");
+        var tmpXmlReviewInfo = createXMLNode('reviewinfo', '', newDoc, tmpXmlRootNode);
+        var tmpXmlNodeTransTitle = createXMLNode('reviewtranstitle', tagReviewTranTitle[0].firstChild.nodeValue, newDoc, tmpXmlReviewInfo);
+		
+        data = new Array();
+		
+	if(i==1 && trans_type=="transfer" && checkTransferPage()){
+		for (j=0; j< tagTs.length;j++) {
+            try{
+                var title = tagTs[j].getElementsByTagName('transinfotitle')[0].firstChild.nodeValue;
+                var content = tagTs[j].getElementsByTagName('transinfocontent')[0].firstChild.nodeValue;
+                var row = [title,content];
+                data.push(row);
+            }catch(e){
+                
+            }
+        }
+	}
+	else{
+		for (j=0; j< tagTs.length;j++) {
+            try{
+                var title = tagTs[j].getElementsByTagName('transinfotitle')[0].firstChild.nodeValue;
+                var content = tagTs[j].getElementsByTagName('transinfocontent')[0].firstChild.nodeValue;
+				/*if(tagTs[j].getElementsByTagName('transinfodisplay')[0]!= undefined && tagTs[j].getElementsByTagName('transinfodisplay')[0] != null &&tagTs[j].getElementsByTagName('transinfodisplay'[0]) != '' ){
+					var scrinfo = tagTs[j].getElementsByTagName('transinfodisplay')[0].firstChild.nodeValue;
+					var row = [title, content+'#'+scrinfo];
+				}
+				else{
+					var row =[title, content];
+				}*/
+				 
+                var row =[title, content]
+                data.push(row);
+            }catch(e){
+                
+            }
+        }
+	}
+        
+
+        
+		if(i==1&& trans_type=="transfer" && checkTransferPage()){
+				var recycler = new RecyclerView({
+				type: "TITLE",
+				typeTextAlign: "MIDLE",
+				title: "Chuyển tới",
+				titleAlign:"LEFT",
+				opacity:false
+			});
+			recycler.setData(data);
+		}
+		else{
+			//gen listview
+            if(CONST_DESKTOP_MODE && !checkScreenisMobilePX()){
+                var recycler = new RecyclerView({
+                    type: "DESKTOP_GRID",
+                    typeTextAlign: "MIDLE",
+                    title: "Tai khoan jumbo",
+                    titleAlign:"LEFT",
+                    opacity:true
+                });
+                recycler.setData(data);
+                var contentHTML = recycler.init();
+            }else{
+			var recycler = new RecyclerView({
+				type: "NORMAL",
+				typeTextAlign: "MIDLE",
+				title: "Tai khoan jumbo",
+				titleAlign:"LEFT",
+				opacity:false
+			});
+			recycler.setData(data);
+            }
+		}
+        var contentHTML = recycler.init();
+
+        var reviewTb = xmlDoc.getElementsByTagName("reviewtable")[0];
+        var contentTableHTML = '';
+        if(reviewTb != undefined && reviewTb != null){
+	        var dataTable =  new Array();
+	        var dataTableTitle =  new Array();
+	        
+	        var a = reviewTb.getElementsByTagName('reviewtabletitle')[0];
+	        for(var i = 1; i <= a.childElementCount; i++){
+	        	dataTableTitle.push(a.getElementsByTagName('tbcol' + i)[0].firstChild.nodeValue);
+	        }
+	        dataTable.push(dataTableTitle);
+	        var rowDetail = reviewTb.getElementsByTagName('reviewtabledetail');
+	        for(var i = 0; i < rowDetail.length;i++){
+	        	var dataTableContent =  new Array();
+	        	for(var j = 1;j <= (rowDetail[i].childElementCount/2);j++){
+	        		dataTableContent.push(rowDetail[i].getElementsByTagName('tbcontent'+j)[0].firstChild.nodeValue);
+	        	}
+	        	dataTable.push(dataTableContent);
+	        }
+
+
+	        var recycler = new RecyclerView({
+	            type: "DESKTOP_NORMAL",
+	            typeTextAlign: "MIDLE",
+	            opacity:false
+	        });
+	        recycler.setData(dataTable);
+	        recycler.setHeaderHightlight(true);
+	        contentTableHTML = '<br>' + recycler.init();	      
+        }
+
+
+		if(tagDKDK != undefined && tagDKDK != null && tagDKDK != '' && tagDKDK.length >0){
+			contentHTML = contentHTML+ "<tr id ='setCheck'>" +
+                    "<td width='3#' onclick='setChecked()'>" +
+					"<span class='icon-checkbox-unchecked' style='display:table-cell;font-size:16px' id='chkAgree'/>" +
+					"</td>" + 
+                    "<td><div class='notestyle'><span>"+CONST_STR.get('FUTURE_SAVING_CONDITION')
+					+ "</span></div></td>" +
+                  "</tr>";
+		}
+		else{
+			var titlesTKTD = gUserInfo.lang == 'VN' ?(CONST_KEY_JUMBO_TRANS_TYPE_VN[0]):(CONST_KEY_JUMBO_TRANS_TYPE_EN[0]);
+            var isTKTD = contentHTML.indexOf(titlesTKTD) > -1;
+			if(isTKTD){
+				contentHTML = contentHTML +    "<table width='98%'>"+
+                             "<tr><td width='2%' onclick='setChecked()'><span class='icon-checkbox-unchecked' style='display:table-cell;font-size:16px' id='chkAgree'/></td>"+
+                             "<td class='notestyle'><span>JUMBO_AUTO_SAV_CONDITON_NOTE1</span><span id='span-blank-space'>BLANK_SPACE</span><em><a target='_blank' class='ref-link' onClick='openlinkSaveAuto();'><u><span>JUMBO_AUTO_SAV_CONDITON_NOTE2</span></u></a></em>&nbsp;<span>JUMBO_AUTO_SAV_CONDITON_NOTE3</span></td></tr></table >";
+
+			}
+			contentHTML=contentHTML;
+		}
+		contentHTML = contentHTML + contentTableHTML;
+        var tmpContent = createXMLNode('content', contentHTML, newDoc, tmpXmlReviewInfo);
+		
+		
+    }
+    //console.log(data);
+
+    //tmpXml = parseXMLPagging();
+    logInfo(newDoc);
+    return newDoc;
+}
+function openlinkSaveAuto(){
+	openLinkInWindows('./download/jumbo/term-condition-autosaving-create.html');
+}
+
+/*** VIEW LOAD SUCCESS ***/
+
+function viewDidLoadSuccess() {
+    resizeMainViewContent(currentPage);
+    navController.getBottomBar().hide();
+    logInfo('review load success');
+	//get sequence form xsl
+	var tmpXslDoc = getCachePageXsl("sequenceform");
+	//create xml
+	var tmpRespReview = getRespObjStore();
+	mailtransid =tmpRespReview.arguments[0];
+	mailservice =tmpRespReview.responseType;
+	if(tmpRespReview.respCode == RESP.get('COM_FINGERPRINT_OVER_LIMIT')||tmpRespReview.respCode == RESP.get('COM_FINGERPRINT_OVER_LIMIT_PAYMENT')){
+		document.getElementById('note_mca').style.display='none';
+		document.getElementById('note_finger').style.display='';
+	}
+	else {
+		if(gUserInfo.valicationType=='MCA'){
+			document.getElementById('note_mca').style.display='';
+			document.getElementById('note_finger').style.display='none';
+		}
+		else{
+			document.getElementById('note_mca').style.display='none';
+			document.getElementById('note_finger').style.display='none';
+		}
+	}
+	//var tmpStepNo = (!tmpRespReview || tmpRespReview.respCode != RESP.get('COM_TRUST_PAYEE'))? 402: 302; //disable trust payee
+	var tmpStepNo = getSequenceFormIdx(tmpStepNo);
+	//tmpStepNo = (!tmpStepNo || (tmpStepNo != 301))? 402: 302;
+	tmpStepNo = (!tmpStepNo || (tmpStepNo != 301))? 302: 302;
+	
+	//store sequence review index
+	setSequenceFormIdx(tmpStepNo);
+    actionbar.addListSequence("com-review-xsl-scr");
+    
+	genHtmlSearchResult(parseXMLPagging());
+	var docXml = createXMLDoc();
+	
+	var tmpXmlRootNode = createXMLNode('seqFrom', '', docXml);
+	var tmpXmlNodeInfo = createXMLNode('stepNo', tmpStepNo, docXml, tmpXmlRootNode);
+	//gen html string
+	genHTMLStringWithXML(docXml, tmpXslDoc, function(oStr){
+		var tmpNodeSeq = document.getElementById('seqFormReview');
+		tmpNodeSeq.innerHTML = oStr;
+		if (tmpRespReview.responseType == '264') {
+			if (get_browser() == 'Chrome') {
+				if (parseInt(get_browser_version()) < 38) {
+					document.getElementById('span-blank-space').style.display = 'none';
+				}
+			} else {
+                // check style
+               var  valSpanBlankSpace = document.getElementById('span-blank-space')
+               if(valSpanBlankSpace != null){
+                   valSpanBlankSpace.style.display = 'none';
+               }
+				//document.getElementById('span-blank-space').style.display = 'none';
+			}
+		}
+		changeLanguageInView();
+	}, function() {
+		logInfo('gen review screen fail');
+		goBack();
+	});
+
+}
+
+function pageIndicatorSelected(selectedIdx, selectedPage) { 
+	pageIndex = selectedIdx;
+	genHtmlSearchResult(parseXMLPagging());
+}
+
+function genHtmlSearchResult(newDocx) {
+	var docXsl = getCachePageXsl("com-review-xsl-scr-tmp");
+	//logInfo(newDocx);
+	genHTMLStringWithXML(newDocx, docXsl, successPaggingCallback, failPaggingCallback);	
+}
+function successPaggingCallback(strHtml) {
+	var div = document.getElementById("show-info");
+	div.innerHTML = strHtml;
+	genPagging(pageIndex);
+}
+
+//Callback failed
+function failPaggingCallback() {
+	//navController.initWithRootView('account/account-scr', true);	
+	var tmpPageName = navController.getDefaultPage();
+	var tmpPageType = navController.getDefaultPageType();
+	navController.initWithRootView(tmpPageName, true, tmpPageType);
+}
+function genPagging(pageIndex) {
+	var tmpStr = genPageIndicatorHtml(totalPages, Number(pageIndex));
+	var ele = document.getElementById('pageIndicatorNums');
+	if (ele != null && ele != undefined)
+		document.getElementById('pageIndicatorNums').innerHTML = tmpStr;
+}
+
+/*** VIEW LOAD SUCCESS END viewWillUnload ***/
+function parseXMLPagging(){
+	
+	var docXml = stringtoXML(strXml);	
+	var valFrom = itemsPerPage*(pageIndex-1);
+		
+	var ppp = docXml.getElementsByTagName('reviewtabledetail');
+	var totalP = ppp.length;
+	totalItems = totalP;
+	totalPages = Math.ceil(totalItems/itemsPerPage);
+	for(var i = 0; i<valFrom; i++){		
+		var y = docXml.getElementsByTagName('reviewtabledetail')[0];		
+		docXml.getElementsByTagName('reviewtable')[0].removeChild(y);		
+	}
+	ppp = docXml.getElementsByTagName('reviewtabledetail');
+	totalP = ppp.length;
+	
+	for(var i =itemsPerPage; i<totalP; i++){		
+		var y = docXml.getElementsByTagName('reviewtabledetail')[itemsPerPage];		
+		docXml.getElementsByTagName('reviewtable')[0].removeChild(y);		
+	}
+	
+	//logInfo('thuan doc New');
+	//logInfo(docXml);
+	return docXml;	
+}
+/*** VIEW WILL UNLOAD ***/
+
+function viewWillUnload() {
+	logInfo('review will unload');
+
+}
+/*** VIEW WILL UNLOAD END ***/
+
+
+function sendJSONRequest() {
+		
+	var obj = document.getElementById('chkAgree');
+	if (obj != null) {
+		if(obj.className == "icon-checkbox-unchecked") {
+			
+			showAlertText(CONST_STR.get('ERR_CHECK_ACCEPT_AUTO_SAVING_TERM'));
+	
+			return //false;
+		} else {
+			requestData();
+		}
+	} else {
+		requestData();
+	}
+}
+
+function requestData() {
+	// collect the form data while iterating over the inputs
+	var data = {};
+	var arrayArgs = new Array();
+	
+	var tmpRespObj;
+	tmpRespObj = getRespObjStore();
+	
+	arrayArgs.push(tmpRespObj.responseType); //confirm type
+	arrayArgs.push(tmpRespObj.arguments[0]); //transaction ID
+	arrayArgs.push(""); //Token key --> By Pass	
+	if (tmpRespObj.respCode == RESP.get('COM_TRUST_PAYEE') && tmpRespObj.responseType != 70 && tmpRespObj.responseType != 271 && tmpRespObj.responseType != 272)
+	{
+		arrayArgs.push(""); //user: authen type
+	}
+	else if ((tmpRespObj.respCode == RESP.get('COM_OVER_LIMIT')) || (tmpRespObj.respCode == RESP.get('COM_OVER_DATE_LIMIT'))) {
+		arrayArgs.push("OTP"); //user: authen type
+	}
+	else if ((tmpRespObj.respCode == RESP.get('COM_FINGERPRINT_OVER_LIMIT'))||(tmpRespObj.respCode == RESP.get('COM_FINGERPRINT_OVER_LIMIT_PAYMENT')) || (tmpRespObj.respCode == RESP.get('COM_FINGERPRINT_OVER_DATE_LIMIT'))) {
+		//arrayArgs.push(""); //user: authen type
+		AuthenticateUsingFingerprint();
+		
+		return;
+	}
+	else 
+	{
+		arrayArgs.push(gUserInfo.valicationType); //user: authen type
+	}
+	setRespObjStore(tmpRespObj);
+	
+	var gprsCmd = new GprsCmdObj(CONSTANTS.get("CMD_TYPE_TICKET_REQUEST"), "", "", gUserInfo.lang, gUserInfo.sessionID, arrayArgs);
+	data["cmdType"] = gprsCmd.cmdType;
+	data["time"] = gprsCmd.timeCur;
+	data["app"] = gprsCmd.appName;
+	data["version"] = gprsCmd.version;
+	data["language"] = gprsCmd.language;
+	data["session"] = gprsCmd.sessionID;
+	data["args"] = gprsCmd.arguments;
+	
+	//gGprsCmd = gprsCmd; //save to global variable-- confirm
+	setGprsCmdStore(gprsCmd);
+	
+	if (tmpRespObj.respCode == RESP.get('COM_SUCCESS'))
+	{
+		//SangNT1 comment cho viec mo so tiet kiem tu dong cung can xac thuc.7/2/2017
+		//  if(tmpRespObj.responseType == CONSTANTS.get('CMD_CREATE_AUTO_SAVING') || tmpRespObj.responseType == CONSTANTS.get('CMD_CHANGE_AUTO_SAVING'))
+		//  {
+		//  	logInfo('Confirm without Authentication');
+		//  	requestMBService(data, true, 0, requestMBServiceSuccess, requestMBServiceFail);
+		//  }		
+		//  else
+		//  {
+			if(tmpRespObj.responseType==CONSTANTS.get('CMD_REGIS_GET_GOLD')||tmpRespObj.responseType== CONSTANTS.get('CMD_ECOUNTER_BOOKING')){
+				requestMBService(data, true, 0, requestMBServiceSuccess, requestMBServiceFail);
+			}
+			else{
+			navController.pushToView("com-authentication-scr", true);
+			}
+		 // }
+		//end sangnt1 comment7/2/2017
+        }
+	//disable trust payee
+	//else if (tmpRespObj.respCode == RESP.get('COM_TRUST_PAYEE')){
+		//logInfo('Confirm without Authentication');
+		//requestMBService(data, true, 0, requestMBServiceSuccess, requestMBServiceFail);
+	//}
+	
+	//TUANNM5 update cho fingerprint/pincode
+	else if ((tmpRespObj.respCode == RESP.get('COM_OVER_LIMIT')) || (tmpRespObj.respCode == RESP.get('COM_OVER_DATE_LIMIT')) || (tmpRespObj.respCode == RESP.get('COM_FINGERPRINT_PIN_LIMIT'))) {
+		navController.pushToView("com-authentication-scr", true);
+	} 	//TUANNM5 update cho fingerprint/pincode EMD
+	//20170628 ngocdt3 bo sung dat lich rut vang khong can xac thuc
+	else if (tmpRespObj.respCode == CONSTANTS.get('TRANS_RELIABLE') ){
+		logInfo('Confirm without Authentication');
+		/*HaiNM*/
+		if (tmpRespObj.responseType==CONSTANTS.get('CMD_TYPE_LOCAL_TRANSFER_CUSTOMER')|| tmpRespObj.responseType==CONSTANTS.get('CMD_REGISTER_FUTURE_SAVING')){
+			navController.pushToView("com-authentication-scr", true);
+		}
+        else
+        {
+			requestMBService(data, true, 0, requestMBServiceSuccess, requestMBServiceFail);
+		}
+		/*End*/
+	}
+	//requestMBService(data, true, 0, requestMBServiceSuccess, requestMBServiceFail);	
+}
+
+
+function requestMBServiceSuccess(e)
+{
+	logInfo('Confirm transaction success!');
+	setReviewXmlStore(XmlLocal);
+	logInfo("haink0");
+	logInfo(XmlLocal);
+	gprsResp = parserJSON(e,false);
+	
+	var tmpRespObj;
+	tmpRespObj = getRespObjStore();
+	
+	
+	if (gprsResp.respCode == RESP.get('COM_SUCCESS'))
+	{
+		setRespObjStore(gprsResp);
+		navController.pushToView("com-review-result-scr", true);
+		//Query account change 
+		queryInfoOfAccountNo(gUsingAccountNo);
+	}
+	else if (gprsResp.respCode == RESP.get('COM_TRANS_EXT_TIMEOUT')) { //go to home page
+		showAlertText(gprsResp.respContent);
+		var tmpPageName = navController.getDefaultPage();
+		var tmpPageType = navController.getDefaultPageType();
+		navController.initWithRootView(tmpPageName, true, tmpPageType);
+	}
+	else if (gprsResp.respCode == RESP.get('COM_WRONG_INPUT_TOKEN')) { //ask to change view
+		showAlertText(gprsResp.respContent);
+	}
+	else if (gprsResp.respCode == '106') {  //by pass for Auto Register with respCode = 106
+		if (tmpRespObj.responseType == CONSTANTS.get('CMD_CREATE_AUTO_SAVING')) {
+			setRespObjStore(gprsResp);
+			navController.pushToView("com-review-result-scr", true);
+			//Query account change 
+			queryInfoOfAccountNo(gUsingAccountNo);
+		}
+	}
+	else { //ask to change view
+		//alert('aaa');
+		//document.addEventListener("alertConfirmOK", handleRequestConfirmAlertOK, false);
+		//document.addEventListener("alertConfirmCancel", handleRequestConfirmAlertCancel, false);
+		//showAlertConfirmText(gprsResp.respContent + CONST_STR.get('ERR_COM_ASK_TO_EXECUTE_AGAIN'));
+		document.addEventListener("closeAlertView", handleRequestAlertReviewOKBtn, false);
+		showAlertText(gprsResp.respContent);
+	}
+}
+
+/*function handleRequestConfirmAlertOK() {
+	document.removeEventListener("alertConfirmOK", handleRequestConfirmAlertOK, false);
+	document.removeEventListener("alertConfirmCancel", handleRequestConfirmAlertCancel, false);
+	navController.resetBranchView();
+}
+
+function handleRequestConfirmAlertCancel() {
+	document.removeEventListener("alertConfirmOK", handleRequestConfirmAlertOK, false);
+	document.removeEventListener("alertConfirmCancel", handleRequestConfirmAlertCancel, false);
+	var tmpPageName = navController.getDefaultPage();
+	var tmpPageType = navController.getDefaultPageType();
+	navController.initWithRootView(tmpPageName, true, tmpPageType);
+}*/
+
+function handleRequestAlertReviewOKBtn() {
+	document.removeEventListener("closeAlertView", handleRequestAlertReviewOKBtn, false);
+	navController.resetBranchView();
+}
+
+function requestMBServiceFail(e)
+{
+	logInfo('Confirm transaction faild!');	
+} 
+
+
+// function goBack() {
+// 	navController.popView(true);
+// }
+
+function btnCancelClick()
+{	
+navController.removePageInCache('esaving/future-esaving-close');	
+withdraw_account = "";
+	//navController.resetBranchView();
+    //goBack();
+	navController.popViewInit();
+}
+
+//TUANNM5 Update
+function setChecked() {
+	//alert('aa');
+	//document.getElementById('trMessage').style.display = "none";
+	var obj = document.getElementById('chkAgree');
+	if(obj.className == "icon-checkbox-unchecked") {
+		obj.className = "icon-checked";
+	} else {
+		obj.className = "icon-checkbox-unchecked";
+	}	
+}
+
+function checkAgree()
+{
+	var obj = document.getElementById('chkAgree');
+	if(obj.className == "icon-checkbox-unchecked") {
+		//alert('Quý khách vui lòng đọc và chấp nhận các điều khoản điều khoản, điều kiện của gửi tiết kiệm rút gốc linh hoạt');
+
+		//var error = document.getElementById('lblErrRequired');
+		//error.innerHTML = 'Quý khách vui lòng đọc và chấp nhận các điều khoản điều khoản, điều kiện của gửi tiết kiệm điện tử';
+		showAlertText(CONST_STR.get('ERR_CHECK_ACCEPT_AUTO_SAVING_TERM'));
+      //  document.getElementById('trMessage').style.display = "";
+
+		return false;
+	} else {
+		sendJSONRequest();
+		return true;
+	}	
+}
+
+function openLink(link) {
+	var items = link.split('.');
+	var linkEN = '';
+	for (var i = 0; i < items.length - 1; i++) {
+		if (i == items.length - 2) {
+			linkEN = linkEN + items[i] + '-EN';
+		} else {
+			linkEN = linkEN + items[i] + '.';
+		}
+	}
+	linkEN = linkEN + '.' + items[items.length - 1];
+	if (gUserInfo.lang == 'EN') {
+		openLinkInWindows(linkEN);
+	} else {
+		openLinkInWindows(link);
+	}	
+}
+
+function AuthenticateUsingFingerprint() {
+	var touchIDTimer = setInterval(function(){
+	//if (touchIDTokenKey != null && touchIDTokenKey.length > 0) {
+			clearInterval(touchIDTimer);
+			 var devicePlatform = device.platform;
+		var versionSDK = device.version;
+        console.log("SANGNT1 com review " +devicePlatform +" "+ versionSDK);
+        if(devicePlatform == 'Android' && versionSDK != 'undefined' && parseInt(versionSDK) >= 6){
+
+            cordova.exec(function(e){
+                var data = {};
+                var arrayArgs = new Array();
+
+                var tmpRespObj;
+                tmpRespObj = getRespObjStore();
+                mailtransid =tmpRespObj.arguments[0];
+                mailservice =tmpRespObj.responseType;
+                arrayArgs.push(tmpRespObj.responseType); //confirm type
+                arrayArgs.push(tmpRespObj.arguments[0]); //transaction ID
+                arrayArgs.push(""); //Token key --> demo
+                arrayArgs.push(""); //user: authen type
+
+                setRespObjStore(tmpRespObj);
+
+                var gprsCmd = new GprsCmdObj(CONSTANTS.get("CMD_TYPE_TICKET_REQUEST_FINGERPRINT"), "", "", gUserInfo.lang, gUserInfo.sessionID, arrayArgs);
+                data["cmdType"] = gprsCmd.cmdType;
+                data["time"] = gprsCmd.timeCur;
+                data["app"] = gprsCmd.appName;
+                data["version"] = gprsCmd.version;
+                data["language"] = gprsCmd.language;
+                data["session"] = gprsCmd.sessionID;
+                data["args"] = gprsCmd.arguments;
+
+                //gGprsCmd = gprsCmd; //save to global variable-- confirm
+                setGprsCmdStore(gprsCmd);
+
+                logInfo('Authenticate using fingerprint successfully');
+                requestMBService(data, true, 0, requestMBServiceSuccess, requestMBServiceFail);
+            }, function(e){
+
+             
+                if( isPinEX=='Y' ){
+                    showAlertText(CONST_STR.get('PIN_EX_DATE_ALERT'));
+                }else{
+                    var data = {};
+                    var arrayArgs = new Array();
+
+                    var tmpRespObj;
+                    tmpRespObj = getRespObjStore();
+                    mailtransid =tmpRespObj.arguments[0];
+                    mailservice =tmpRespObj.responseType;
+                    arrayArgs.push(tmpRespObj.responseType); //confirm type
+                    arrayArgs.push(tmpRespObj.arguments[0]); //transaction ID
+                    arrayArgs.push(""); //Token key --> demo
+                    arrayArgs.push(gUserInfo.valicationType); //user: authen type
+
+                    setRespObjStore(tmpRespObj);
+
+                    var gprsCmd = new GprsCmdObj(CONSTANTS.get("CMD_TYPE_TICKET_REQUEST"), "", "", gUserInfo.lang, gUserInfo.sessionID, arrayArgs);
+                    data["cmdType"] = gprsCmd.cmdType;
+                    data["time"] = gprsCmd.timeCur;
+                    data["app"] = gprsCmd.appName;
+                    data["version"] = gprsCmd.version;
+                    data["language"] = gprsCmd.language;
+                    data["session"] = gprsCmd.sessionID;
+                    data["args"] = gprsCmd.arguments;
+
+                    //gGprsCmd = gprsCmd; //save to global variable-- confirm
+                    setGprsCmdStore(gprsCmd);
+
+                    logInfo('Authenticate using fingerprint failed or cancelled, return to default authen type');
+                    navController.pushToView("com-authentication-scr", true);
+
+                }
+            }, 'FingerPrint', 'checkMyFingerPrint', ['checkMyFingerPrint']);
+        }else{
+			THEBTouchID.alert('abc', 'def', 'Huynt2', function(){
+				var data = {};
+				var arrayArgs = new Array();
+				
+				var tmpRespObj;
+				tmpRespObj = getRespObjStore();
+				
+				arrayArgs.push(tmpRespObj.responseType); //confirm type
+				arrayArgs.push(tmpRespObj.arguments[0]); //transaction ID
+				arrayArgs.push(""); //Token key --> By Pass
+				arrayArgs.push(""); //user: authen type
+				setRespObjStore(tmpRespObj);
+				
+				var gprsCmd = new GprsCmdObj(CONSTANTS.get("CMD_TYPE_TICKET_REQUEST_FINGERPRINT"), "", "", gUserInfo.lang, gUserInfo.sessionID, arrayArgs);
+				data["cmdType"] = gprsCmd.cmdType;
+				data["time"] = gprsCmd.timeCur;
+				data["app"] = gprsCmd.appName;
+				data["version"] = gprsCmd.version;
+				data["language"] = gprsCmd.language;
+				data["session"] = gprsCmd.sessionID;
+				data["args"] = gprsCmd.arguments;
+				
+				//gGprsCmd = gprsCmd; //save to global variable-- confirm
+				setGprsCmdStore(gprsCmd);
+				
+				logInfo('Authenticate using fingerprint successfully');
+				requestMBService(data, true, 0, requestMBServiceSuccess, requestMBServiceFail);
+			}, function(e) {
+				//authenticate failed or cancelled
+				 var data = {};
+				var arrayArgs = new Array();
+				
+				var tmpRespObj;
+				tmpRespObj = getRespObjStore();
+				
+				arrayArgs.push(tmpRespObj.responseType); //confirm type
+				arrayArgs.push(tmpRespObj.arguments[0]); //transaction ID
+				arrayArgs.push(""); //Token key --> By Pass
+				arrayArgs.push(gUserInfo.valicationType); //user: authen type
+				setRespObjStore(tmpRespObj);
+				
+				var gprsCmd = new GprsCmdObj(CONSTANTS.get("CMD_TYPE_TICKET_REQUEST"), "", "", gUserInfo.lang, gUserInfo.sessionID, arrayArgs);
+				data["cmdType"] = gprsCmd.cmdType;
+				data["time"] = gprsCmd.timeCur;
+				data["app"] = gprsCmd.appName;
+				data["version"] = gprsCmd.version;
+				data["language"] = gprsCmd.language;
+				data["session"] = gprsCmd.sessionID;
+				data["args"] = gprsCmd.arguments;
+				
+				//gGprsCmd = gprsCmd; //save to global variable-- confirm
+				setGprsCmdStore(gprsCmd);
+				
+				logInfo('Authenticate using fingerprint failed or cancelled, return to default authen type');
+				navController.pushToView("com-authentication-scr", true);
+			/*
+				if (e == '3') {
+					//showAlertText(CONST_STR.get("TOUCHID_3_TIMES_FAIL_ALERT"));
+				}
+			*/
+				
+			});
+		}
+		//}
+	}, 200);
+	setTimeout(function(){
+		if(touchIDTimer) {
+			clearInterval(touchIDTimer);
+		}
+	}, 45000);
+}
+</script></div>
+    <div id="mask-slideview" class="slidemenu-blacktrans" onclick="closeAllSlideMenu();" style="display: none; opacity: 0;"></div>
+    <div id="mainlayoutfooter" class="footer break-slide" style="display: none;">
+        <div id="footerSlide" style="display: block;" class="footer-slide break-slide">
+            <div class="icon_div_out break-slide" onclick="navController.pushToView('view-non-ebank/fast-register-scr', true,'xsl')" id="index-non-ebank1"><em class="icon-quick-regist icon_font_view break-slide" style="color: #c3b4e5"></em>
+
+                <div class="langNoStyle icon_div_out_title">
+                    <span id="SlideFooter">Đăng ký nhanh</span>
+                </div>
+            </div>
+
+            <div class="icon_div_out break-slide" onclick="showQRCodeView();" id="index-non-ebank2"><em class="icon-qr-code icon_font_view break-slide" style="color: #98c1a2"></em>
+
+                <div class="langNoStyle icon_div_out_title">
+                  
+                    <span id="SlideFooter1">Quét mã QRCode</span>
+                </div>
+            </div>
+            <div class="icon_div_out break-slide" onclick="openLinkInWindows('https://tpb.vn/promotion/hot-offers?utm_source=ebank&amp;utm_medium=click%20&amp;utm_campaign=main-ebank-uu-dai');" id="index-non-ebank3"><em class="icon-promotions icon_font_view break-slide" style="color: #dfa1ae"></em>
+
+                <div class="langNoStyle icon_div_out_title">
+                    <span id="SlideFooter2">Ưu đãi</span>
+                </div>
+            </div>
+            <div class="icon_div_out break-slide" onclick="navController.pushToView('view-non-ebank/rate-interest-detail', true,'xsl')" id="index-non-ebank4"><em class="icon-forex-rate icon_font_view break-slide" style="color: #c3b4e5"></em>
+
+                <div class="langNoStyle icon_div_out_title">
+                    <span id="SlideFooter3">Tỷ giá/Lãi suất</span>
+                </div>
+            </div>
+            <div class="icon_div_out break-slide" onclick="navController.pushToView('view-non-ebank/branch-atm-detail', true,'xsl')" id="index-non-ebank5"><em class="icon-location icon_font_view break-slide" style="color: #98c1a2"></em>
+
+                <div class="langNoStyle icon_div_out_title">
+                    <span id="SlideFooter4">Chi nhánh/ATM</span>
+                </div>
+            </div>
+            <div class="icon_div_out break-slide" onclick="navController.pushToView('utilitiesxsl/utilities-manage-scr', true,'xsl')" id="index-non-ebank6"><em class="icon-financial-toolkit icon_font_view break-slide" style="color: #98c1a2"></em>
+                <div class="langNoStyle icon_div_out_title">
+                    <span id="SlideFooter5">Công cụ tính toán</span>
+                </div>
+            </div>
+            <!--end-->
+            <div class="icon_div_out break-slide" onclick="navController.pushToView('view-non-ebank/support-detail', true,'xsl')" id="index-non-ebank7"><em class="icon-support icon_font_view break-slide" style="color: #dfa1ae"></em>
+
+                <div class="langNoStyle icon_div_out_title">
+                    <span id="SlideFooter6">Hỗ trợ</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="navActionbar" class="navActionbar" style="display: block; border-bottom: 1px solid rgba(123, 31, 162, 0.3); background: rgba(255, 255, 255, 0); height: 44px;">
+   <!--<button onclick="myFunction()">Click me</button>-->
+    <div id="nav.btn.home" class="icon-back handle ripple-add-on" style="color: #ffffff;font-size:22px;padding: 11px;position:absolute;display: none;"></div>
+    <div id="nav.icon.tpbank" class="icon-home-tpb" style="display: none;"><img src="assets/images/image002.png" class="icon-home-tpb-img"></div>
+    <div id="nav.btn.homeright" class="icon-menu handle ripple-add-on" style="display: none; position: absolute; color: rgb(255, 255, 255); font-size: 22px; padding: 11px; right: 0px;"></div>
+    <div id="nav.btn.share" class="icon-share handle ripple-add-on" style="display: none; position: absolute;  color: #ffffff;font-size:22px;padding: 11px; right:0px;" onclick="shareIt()"></div>
+    <div id="nav.btn.right2" style="position: absolute; right: 0px; margin-top: 11px; display: none;"></div>
+	<div class="icon-qr-code ripple-add-on" onclick="showQRCodeView();" id="id.qrcode.btn" style="position: absolute; color: rgb(255, 255, 255); font-size: 22px; padding: 11px 6px; right: 40px; display: none;"></div>
+    <a href="tel:1900 585 885 "><div class="icon-contact-us ripple-add-on" id="id.call.btn" style="position: absolute; color: rgb(255, 255, 255); font-size: 22px; padding: 11px 6px; right: 74px; display: none;"></div></a>
+    <div id="nav.titleBar" style="height: 100%; left: 12px; right: 55px; position: absolute; top: 0px; text-transform: uppercase; text-align: left;">
+       <div id="nav.title" style="transition: all 0.3s ease-in-out 0s; display: inline-block; text-align: left; text-decoration: none; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; position: relative; width: 100%; height: 100%; line-height: 44px; font-size: 15px; color: black; opacity: 1;">Liên ngân hàng</div>
+       <div id="nav.subtitle" style="display: none;text-align: center;text-decoration: none;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;position: absolute;width: 100%;height: 14px;line-height: 14px;font-size: 12px;top: 26px;">01437991001</div>
+              <span id="iconTa" class="icon-movenext input-group-symbol" style="margin-top: -26px; margin-left: -19px; font-size: 10px; position: absolute; display: block;"></span>
+    <div id="nav.stepSequence" style="font-size: 38px; width: 100%; position: absolute; bottom: -2px; text-align: right; transition: all 0.3s ease-in-out 0s; opacity: 1; margin-left: 41px;"><span class="" style="border-radius: 3px; margin: 3px; color: rgb(255, 255, 255);">•</span><span class="" style="border-radius: 3px; margin: 3px; color: rgb(255, 140, 41);">•</span><span class="" style="border-radius: 3px; margin: 3px; color: rgb(255, 255, 255);">•</span></div></div>
+
+    <div id="nav.headerbar" class="bg-banner-home" style="opacity: 0; display: none;">
+        <span id="nav.title.customername" class="customer-name">TRAN THI HUONG</span>
+        <span id="nav.title.datetime">Chủ nhật, ngày 21 tháng 07 năm 2019</span>
+    </div>
+    <!--<div id="nav.dynamicBack" class="nav-dynamicBack" style="display: none"></div>-->
+</div>
+<div id="navBottomBar" class="navBottomBar" style="display: none; left: 270px; height: 35px; top: 455px;"><div class="bottomBarHome" id="bottomBarHome" style="transition-property: none; display: none;"><div id="tabbarHomeItem0" class="tabbarItem ripple-add-on" style="width: 126.024px; background: rgb(255, 140, 41); height: 60px;"><div id="tabbarHomeIcon0" class="icon-homepage" style="width: 126.024px; position: absolute; margin-left: -27%; top: -6%; font-size: 22px; padding-top: 10px; color: rgb(255, 255, 255);"></div><p id="tabbarHomeText0" class="tabBarText" style="width: 126.024px; line-height: 39px; margin-left: 5%; height: 28px; left: 0px; color: rgb(255, 255, 255);">Trang chủ</p></div><div id="tabbarHomeItem1" class="tabbarItem ripple-add-on" style="width: 212.176px; background: rgb(156, 101, 165); height: 60px;"><div id="tabbarHomeIcon1" class="icon-recents" style="width: 212.176px; position: absolute; margin-left: -27%; top: -6%; font-size: 22px; padding-top: 10px; color: rgb(225, 190, 231);"></div><p id="tabbarHomeText1" class="tabBarText" style="width: 212.176px; line-height: 39px; margin-left: 5%; height: 28px; left: 0px; color: rgb(225, 190, 231);">Hoạt động gần đây</p></div><div id="tabbarHomeItem2" class="tabbarItem ripple-add-on" style="width: 193.664px; background: rgb(156, 101, 165); height: 60px;"><div id="tabbarHomeIcon2" class="icon-financial-overview" style="width: 193.664px; position: absolute; margin-left: -27%; top: -6%; font-size: 22px; padding-top: 10px; color: rgb(225, 190, 231);"></div><p id="tabbarHomeText2" class="tabBarText" style="width: 193.664px; line-height: 39px; margin-left: 5%; height: 28px; left: 0px; color: rgb(225, 190, 231);">Tổng quan tài chính</p></div><div id="tabbarHomeItem3" class="tabbarItem ripple-add-on" style="width: 180.136px; background: rgb(156, 101, 165); height: 60px;"><div id="tabbarHomeIcon3" class="icon-financial-management" style="width: 180.136px; position: absolute; margin-left: -27%; top: -6%; font-size: 22px; padding-top: 10px; color: rgb(225, 190, 231);"></div><p id="tabbarHomeText3" class="tabBarText" style="width: 180.136px; line-height: 39px; margin-left: 5%; height: 28px; left: 0px; color: rgb(225, 190, 231);">Quản lý tài chính</p></div></div><div class="bottomBarShortCut" id="bottomBarShortCuttransfer-inter" style="transition-property: none; display: none;"><div id="tabbarShortCutItemtransfer-inter0" class="tabbarItem ripple-add-on" style="width: 178px; background: rgb(130, 88, 150); height: 47px;"><div id="tabbarShortCutIcontransfer-inter0" class="icon-recents" style="width: 147px; position: absolute; margin-left: -27%; font-size: 22px; padding-top: 5px;"></div><p id="tabbarShortCutTexttransfer-inter0" class="tabBarText" style="width: 178px; line-height: 33px; margin-left: 7px; color: rgb(225, 190, 231); left: 0px;">Gần đây</p></div><div id="tabbarShortCutItemtransfer-inter1" class="tabbarItem ripple-add-on" style="width: 178px; background: rgb(130, 88, 150); height: 47px;"><div id="tabbarShortCutIcontransfer-inter1" class="icon-template" style="width: 147px; position: absolute; margin-left: -27%; font-size: 22px; padding-top: 5px;"></div><p id="tabbarShortCutTexttransfer-inter1" class="tabBarText" style="width: 178px; line-height: 33px; margin-left: 7px; color: rgb(225, 190, 231); left: 0px;">Mẫu chuyển tiền</p></div><div id="tabbarShortCutItemtransfer-inter2" class="tabbarItem ripple-add-on" style="width: 178px; background: rgb(130, 88, 150); height: 47px;"><div id="tabbarShortCutIcontransfer-inter2" class="icon-beneficiaries" style="width: 147px; position: absolute; margin-left: -27%; font-size: 22px; padding-top: 5px;"></div><p id="tabbarShortCutTexttransfer-inter2" class="tabBarText" style="width: 178px; line-height: 33px; margin-left: 7px; color: rgb(225, 190, 231); left: 0px;">Danh bạ nhận</p></div><div id="tabbarShortCutItemtransfer-inter3" class="tabbarItem ripple-add-on" style="width: 178px; background: rgb(130, 88, 150); height: 47px;"><div id="tabbarShortCutIcontransfer-inter3" class="icon-scheduled-transfers-list" style="width: 147px; position: absolute; margin-left: -27%; font-size: 22px; padding-top: 5px;"></div><p id="tabbarShortCutTexttransfer-inter3" class="tabBarText" style="width: 178px; line-height: 33px; margin-left: 7px; color: rgb(225, 190, 231); left: 0px;">Lệnh C.tiền định kỳ</p></div></div></div>
+<!-- desktop footer -->
+<div id="pageFooter" style="background-color: #5f2f85; float: left;height: 34px;width:100%; display: none">
+
+    <div class="callsupport"><a class="acallphone" onclick="openLinkInWindows('https://webchat.tpb.vn/WebchatASP/');">
+        <div class="icon-chat  btnshadow btn-second btn-round-15"></div>
+    </a></div>
+
+    <!--<div class="mobilemode">-->
+    <div class="changelanguage" id="btnChangLanguageIB"><img class="languageEnglishFlag" src="./assets/images/English_flag_round_30.png" onclick="changeLanguageOnIB()"></div>
+    <!--</div>-->
+    <!--SANGNT1 NOTIFICATION-->
+    <div class="notificationAction" id="btnNotification" onclick="navController.pushToView('notification/list_notification_scr', true, 'xsl');">
+
+        <div class="icon-notification" style="font-size:30px; position:absolute; color:#fff;"></div>
+        <div id="notifi-number-web" align="center" class="icon-number-notifi" style="visibility:hidden; padding:5px;position:fixed;float:right;font-size: 10px;margin-bottom:0px;bottom:16px; background:#F46F20; border-radius: 50%; z-index:1;color:white;margin-left:15px;">
+            4
+        </div>
+
+    </div>
+
+    <!--END NOTIFICATION-->
+
+    <!--DATMD QRCODE-->
+    <div class="desktopmode">
+        <div id="btnQRcode" onclick="showQRCodeView()" style="margin-left: 135px !important; display: none;">
+
+            <div class="icon-qr-code" style="font-size:30px; position:absolute; color:#fff;"></div>
+            <!--<div id="notifi-number-web" align="center" class="icon-number-notifi" style="visibility:hidden; padding:5px;position:fixed;float:right;font-size: 10px;margin-bottom:0px;bottom:16px; background:#F46F20; border-radius: 50%; z-index:1;color:white;margin-left:15px;">4</div>-->
+
+        </div>
+    </div>
+    <!--DATMD QRCODE-->
+
+    <div class="divcopyright">
+        <p class="pcopyrighttext">© TPBank 2009-2014. All rights reserved.</p>
+    </div>
+</div>
+<div id="bottom_page" align="center" style="display: none; width: 100%; position: fixed; bottom: 2%; z-index: 1000;">
+    <table width="100%" cellspacing="0" cellpadding="0" border="0">
+        <tbody><tr>
+            <td style="padding-top:0px;padding-bottom:2%;">
+                <table id="page_Bannerbottom" width="100%" border="0" cellpadding="0" cellspacing="0" style="height: 103px">
+                    <tbody><tr width="100%">
+                        <td width="68%" style="border-right: 1px dashed rgb(225, 190, 231);">
+                            <span id="login.BannerBottom"><a href="https://tpb.vn/news/thanh-toan-tien-dien-tu-dong-voi-ebank-v80-%E2%80%93-hien-dai-nhanh-chong-thuan-tien"><img style="height:85px;" src="https://ebank.tpb.vn/retail/v8/promotion/banner_tiendien.png"></a></span>
+                        </td>
+                        
+                        
+                        <td id="block_download" width="22%" class="imagelink cblock_download_link"><a style="position: absolute;
+    margin: -1px 0 0 6%;" class="block_download_link_bt" id="bt_appstore" href="https://itunes.apple.com/vn/app/tpbank-mobile/id450464147?mt=8"></a>
+                        <a style="position: absolute;
+    margin: -44px 0 0 6%;" class="block_download_link_bt" id="bt_google_play" href="https://play.google.com/store/apps/details?id=com.tpb.mb.gprsandroid&amp;hl=en"></a>
+                       
+    </td>   
+                        <td width="68%" id="block_download_qrcode" class="block_download_qr" style="display: block;">
+                              
+                        </td>
+                    </tr>
+                    
+                </tbody></table>
+            </td>
+        </tr>
+    </tbody></table>
+</div>
+</div><!--/#fullpage-->
+</div>
+<div id="pageFooterDesktop" style="background-color: rgba(73, 21, 115, 0.7); position: fixed;bottom: 0px; float: left; height: 24px; width: 100%; display: block;">
+<div style="max-width: 1000px; margin: 0 auto">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tbody><tr>
+<td style="width: 50%; color: #eee; padding-bottom: 10px;"><div><a class="pageFooterDesktop-color" href="/quy-dinh-su-dung">Điều khoản sử dụng</a> l <a class="pageFooterDesktop-color" href="/bao-mat-thong-tin-khach-hang">Bảo mật thông tin khách hàng</a> </div>
+</td>
+
+      <td class="divcopyright" onclick="requestLoginBackground();" style="float: right;">
+        <div class="pcopyrighttext" style="color: #eee;" id="id_copyright"><p style="font-family:sans-serif;display:inline;">©&nbsp;</p><p style="display:inline;"> 2019 TPBank</p></div>
+      </td>
+      </tr>
+      </tbody></table>
+      </div>
+    </div>
+<div id="mask-blacktrans" class="alert-blacktrans" align="center" onclick="" style="display:none"></div>
+<div id="loadingMask" class="loading" style="display: none; opacity: 0;">
+    <div class="circle" style="display:none"></div>
+    <div class="circle1" style="display:none"></div>
+    <!--<div id="loading-progress" class="loading_progress"></div>-->
+    <div class="circle-loading-css" style="display:none">
+                    <span id="loading-progress-content">0%</span>
+                    <div class="progress-cirlce">
+                        <div id="loading-progress-bar" class="progress-bar"></div>
+                        <div id="loading-progress-fill" class="progress-fill"></div>
+                    </div>
+    </div>
+    <!--<div class="loading_svg">-->
+        <!--<object type="image/svg+xml" id="logo_loading" data="assets/images/tp_loading.svg"></object>-->
+    <!--</div>-->
+    <div id="logo_loading" class="loading_svg" style="display: none;">
+        <div class="main1">
+            <img class="absolute" src="assets/images/logo.png" alt="">
+        </div>
+        <div class="main2" id="image" style="height: 1.3375px;">
+            <img class="absolute" src="assets/images/logo.png" alt="">
+        </div>
+    </div>
+</div>
+<div id="alert-confirm-dialog" class="alert-blacktrans" align="center" onclick="" style="display:none">
+    <div class="alert-info" style="border-radius: 10px;" id="alert-confirm-dialog-noneLogin">
+        <p id="alert-title" style="background: #6a1b9a;font-size: 18px;padding: 5px; border-radius: 7px 7px 0 0;"></p>
+        <p id="alert-confirm-content" style="border-bottom: 1px solid rgba(51, 51, 51, 0.21);" class="txt-alert-view"></p>
+        <table style="width:100%">
+            <tbody><tr>
+                <td style="width:50%;">
+                     <input type="button" id="btnAlertConfirmCancel" style="margin-left: 12%;padding: 8px;background: rgba(162, 100, 187, 0.51) !important;color: #f3f3f3;border-radius: 25px;width: 85%;" value="Hủy" onclick="closeAlertConfirm(false)" class="btn-alert-close">
+                </td>
+                <td style="width:50%">
+                    <input type="button" style="padding: 8px;background: #ff8c29;color: #f3f3f3;border-radius: 25px;width: 85%;margin-left: 2%;" id="btnAlertConfirmOk" value="OK" onclick="closeAlertConfirm(true)" class="btn-alert-ok">
+                </td>
+            </tr>
+        </tbody></table>
+    </div>
+</div>
+<div id="alert-confirm-dialogfull" class="alert-blacktrans" align="center" onclick="" style="display:none">
+    <div class="alert-info" style="border-radius: 10px;" id="alert-confirm-dialog-noneLogin1">
+        <p id="alert-titleLogin" style="background: #6a1b9a;color: #f3f3f3;font-size: 18px;padding: 5px; border-radius: 7px 7px 0 0;"></p>
+        <p id="alert-confirm-contentfull" style="border-bottom: 1px solid rgba(51, 51, 51, 0.21);" class="txt-alert-view"></p>
+        <table style="width:100%">
+            <tbody><tr>
+                    <td style="width:50%">
+                            <input type="button" style="padding: 8px;background: #ff8c29;color: #f3f3f3;border-radius: 25px;width: 60%;margin-left: 7%;" id="btnAlertConfirmOkLogin" value="OK" onclick="closeAlertConfirmLogin(true)" class="btn-alert-ok">
+                        </td>
+                <td style="width:50%;">
+                     <input type="button" id="btnAlertConfirmCancelLogin" style="margin-left: -20%;padding: 8px;background: rgba(162, 100, 187, 0.51) !important;color: #f3f3f3;border-radius: 25px;width: 110%;" value="OK" onclick="closeAlertConfirmLogin(false)" class="btn-alert-close">
+                </td>
+                
+            </tr>
+        </tbody></table>
+    </div>
+</div>
+<div id="alert-app-confirm" align="center" onclick="" style="display:none">
+    <div class="alert-info" id="alert_info" style="border-radius: 10px;display: none;">
+        <p id="alert-title" style="background: #6a1b9a;font-size: 18px;padding: 5px;border-radius: 7px 7px 0 0;"></p>
+        <p id="alert-app-content" style="border-bottom: 1px solid rgba(51, 51, 51, 0.21);" class="txt-alert-view"></p>
+        <table style="width:100%">
+            <tbody><tr>
+                <td style="width:50%;" id="td-confirm-cancel">
+                    <input type="button" id="btnAlertAppCancel" style="margin-left: 12%;padding: 8px;background: rgba(162, 100, 187, 0.51) !important;color: #f3f3f3;border-radius: 25px;width: 85%;" value="ALERT_BTN_CLOSE_TITLE" onclick="closeAlertApp(false)" class="btn-alert-close">
+                </td>
+                <td style="width:50%" id="td-confirm-ok">
+                    <input type="button" style="padding: 8px;background: #ff8c29;color: #f3f3f3;border-radius: 25px;width: 85%;margin-left: 2%;" id="btnAlertAppOk" value="ALERT_BTN_OK_TITLE" onclick="closeAlertApp(true)" class="btn-alert-ok">
+                </td>
+            </tr>
+        </tbody></table>
+    </div>
+</div>
+<div id="alert-confirm-dialog-schedulebank" class="alert-blacktrans" align="center" onclick="" style="display:none">
+    <div class="alert-info">
+        <p id="alert-confirm-content-schedulebank" class="txt-alert-view"></p>
+        <table style="width:100%">
+            <!-- style="width:100% ;border-top:1px solid black"-->
+            <tbody><tr>
+                <td style="width:50%;"><!-- style="width:50%; border-right:1px solid black"-->
+
+                    <input type="button" id="btnCANCEL_SCHEDULE" onclick="closeAlertConfirmScheduleBank(false)" class="btn-alert-close" value="Hủy"></td>
+                <td style="width:50%"><input type="button" id="btnOK_SCHEDULE" onclick="closeAlertConfirmScheduleBank(true)" class="btn-alert-ok" value="Xác nhận"></td>
+            </tr>
+        </tbody></table>
+    </div>
+</div>
+
+<div id="alert-confirm-dialog-qrcode" class="alert-blacktrans" align="center" onclick="" style="display:none">
+    <div class="alert-info">
+        <p id="alert-confirm-content-schedulebank" class="txt-alert-view"></p>
+        <table style="width:100%">
+            <tbody><tr>
+                <td style="width:50%;">
+                    <input type="button" id="btnCANCEL_SCHEDULE" onclick="closeAlertConfirmScheduleBank(false)" class="btn-alert-close" value="Thử lại">
+                </td>
+                <td style="width:50%">
+                    <input type="button" id="btnOK_SCHEDULE" onclick="closeAlertConfirmScheduleBank(true)" class="btn-alert-ok" value="Thoát">
+                </td>
+            </tr>
+        </tbody></table>
+    </div>
+</div>
+
+<div id="alert-info-dialog" class="alert-blacktrans" align="center" onclick="" style="display:none">
+    <div class="alert-info" style="border-radius: 10px;">
+        <p style="color:#efefef;background-color: #7b1fa2; border-color:#714197; z-index: 2;border-radius: 8px 8px 0 0;height: 30px; font-size:150%; width:100%; "><span>Thông Báo</span></p>
+        <p id="alert-info-content" style="    border-bottom: 1px solid rgba(51, 51, 51, 0.21);" class="txt-alert-view"></p>
+        <input type="button" value="OK" onclick="closealert()" style="margin:10px auto;
+    padding: 8px;
+    background: rgba(162, 100, 187, 0.51);
+    color: #f3f3f3;
+    border-radius: 25px;
+    width: 120px;" class="btn-alert-close">
+    </div>
+</div>
+<div id="alert-KHCN-KHDN-TERMS-dialog" class="alert-blacktrans" align="center" onclick="" style="display:none">
+    <div class="alert-info alert-info-sp" id="alert-KHCN-KHDN-TERMS-spinfo">
+        <div class="closepopup closepopup-sp" onclick="closealertKHCN_KHDN_TERMS();">×</div>
+        <p id="alert-KHCN-KHDN-TERMS-content" class="txt-alert-view txt-alert-view-sp"></p>
+        <table style="width:100%;padding: 5% 0;" class="table-alert-spInfo">
+            <tbody><tr>
+                <td style="width:50%;">
+                    <input type="button" value="KH Doanh nghiệp" onclick="closealertKHDN_TERMS();" class="btn-alert-close btn-alert-close-sp" id="btnTERMS_KHDN" style="white-space:pre-wrap"></td>
+                <td style="width:50%">
+                    <input type="button" value="KH Cá nhân" onclick="closealertKHCN_TERMS();" class="btn-alert-close btn-alert-close-sp" id="btnTERMS_KHCN" style="white-space:pre-wrap">
+                </td>
+            </tr>
+        </tbody></table>
+    </div>
+</div>
+<div id="alert-KHCN-KHDN-INSTRUCTION-dialog" class="alert-blacktrans" align="center" onclick="" style="display:none">
+    <div class="alert-info alert-info-sp" id="alert-KHCN-KHDN-INSTRUCTION-spInfo">
+        <div class="closepopup closepopup-sp" onclick="closealertKHCN_KHDN_INSTRUCTION();">×</div>
+        <p id="alert-KHCN-KHDN-INSTRUCTION-content" class="txt-alert-view txt-alert-view-sp"></p>
+        <table style="width:100%;padding: 5% 0;" class="table-alert-spInfo">
+            <tbody><tr>
+                <td style="width:50%;">
+                    <input type="button" value="KH Doanh nghiệp" onclick="closealertKHDN_INSTRUCTION();" class="btn-alert-close btn-alert-close-sp" id="btnINSTR_KHDN">
+                </td>
+                <td style="width:50%">
+                    <input type="button" value="KH Cá nhân" onclick="closealertKHCN_INSTRUCTION();" class="btn-alert-close btn-alert-close-sp" id="btnINSTR_KHCN">
+                </td>
+            </tr>
+        </tbody></table>
+    </div>
+</div>
+<div id="alert-KHCN-KHDN-FAQ-dialog" class="alert-blacktrans" align="center" onclick="" style="display:none">
+    <div class="alert-info">
+        <div class="closepopup" onclick="closealertKHCN_KHDN_FAQ();"></div>
+        <p id="alert-KHCN-KHDN-FAQ-content" class="txt-alert-view"></p>
+        <table style="width:100%">
+            <tbody><tr>
+                <td style="width:50%;"><input type="button" value="KH Doanh nghiệp" onclick="closealertKHDN_FAQ();" class="btn-alert-close" id="btnFAQ_KHDN"></td>
+                <td style="width:50%"><input type="button" value="KH Cá nhân" onclick="closealertKHCN_FAQ();" class="btn-alert-close" id="btnFAQ_KHCN"></td>
+            </tr>
+        </tbody></table>
+    </div>
+</div>
+<div id="loadingPage">
+    <div class="circle"></div>
+    <div class="circle1"></div>
+</div>
+<div id="hint-info-dialog" class="dialog-blacktrans" align="center" style="display:none;background-color: rgba(0, 0, 0, 0);">
+    <div class="dialog-backgroundtrans" onclick="closeHint()"></div>
+                      <span id="search_dialog" class="text-hint" style="white-space:pre-wrap;text-align: justify;">  
+                    </span>
+</div>
+<!--<div id="calendarShow" >
+    <div id="calendarShowVitual"  ></div>
+    <div id="calendarShowExactly" ></div>-->
+    
+<div id="calendarShow">
+    <div id="calendarShowVitual"></div>
+    <div id="calendarShowOpacity"></div>
+    <div id="exit" style="z-index: 999999999 !important;display:none;
+    position: absolute;width:100%;"> <span id="exitcalender" style="font-size: 40px;
+    float: right;
+    margin-top: -15px;
+    margin-right: 7px;" onclick="hideCalendar()">×</span></div>
+    <div id="calendarShowExactly"></div>
+    <div id="testgae" style="z-index: 999999999 !important; display:none;
+    height: 40px !important;
+    position: absolute;
+    /* height: auto; */
+    margin-top: calc(35% + 320px);width:100%;"><div style="    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    background-color: #fb8c00;
+    border-radius: 20px;
+    font-weight: bold;
+    text-align: center;
+    align-content: center;
+    padding: 12px;" onclick="hideCalendar()"><span style="font-size: 14px;">Đặt lịch</span></div></div>
+
+</div>
+<script type="text/javascript">
+    document.getElementById("id_copyright").innerHTML = "<p style='font-family:sans-serif;display:inline;'>&copy;&nbsp;</p>" + "<p style='display:inline;'> " + new Date().getFullYear() + " TPBank</p>"; 
+</script>
+<script type="text/javascript">
+// Some default pre init
+var Countly = Countly || {};
+Countly.q = Countly.q || [];
+// Provide your app key that you retrieved from Countly dashboard
+Countly.app_key = "36a7809e57ae74ae5384a55563f54cd078db1d26";
+// Provide your server IP or name. Use try.count.ly or us-try.count.ly 
+// or asia-try.count.ly for EE trial server.
+// If you use your own server, make sure you have https enabled if you use
+// https below.
+Countly.url = "https://count.tpb.vn"; 
+// Start pushing function calls to queue
+// Track sessions automatically (recommended)
+Countly.q.push(['track_sessions']);
+//track web page views automatically (recommended)
+Countly.q.push(['track_pageview']);
+Countly.q.push(['group_features', {
+    activity:["sessions","events","views"],
+    interaction:["scrolls","clicks","forms"]
+}]);
+Countly.q.push(['track_forms']);
+Countly.q.push(['track_links']);
+Countly.q.push(['track_errors', {jquery:"1.10", jqueryui:"1.10"}]);
+// Uncomment the following line to track web heatmaps (Enterprise Edition)
+// Countly.q.push(['track_clicks']);
+// Uncomment the following line to track web scrollmaps (Enterprise Edition)
+// Countly.q.push(['track_scrolls']);
+// Load Countly script asynchronously
+window.addEventListener('load', function() {    
+    (function() {
+        var cly = document.createElement('script'); cly.type = 'text/javascript'; 
+        cly.async = true;
+        // Enter url of script here (see below for other option)
+        // cly.src = 'https://cdn.jsdelivr.net/npm/countly-sdk-web@latest/lib/countly.min.js';
+        cly.src = 'https://count.tpb.vn/enterpriseinfo/javascripts/countly.min.js';
+        cly.onload = function(){Countly.init()};
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(cly, s);
+    })();  
+})
+</script>
+<!-- Chatbot -->
+<!-- pageUAT : https://www.facebook.com/taiostaging/
+     page_id="425502311269669" 
+     PageProduct : https://ebank.tpb.vn
+     page_id= "181643348566296"
+ -->
+ 
+<script>
+   (function (d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s);
+        js.id = id;
+        js.src =
+        'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js#xfbml=1&version=v2.12&autoLogAppEvents=1';
+         fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+</script>                                    
+<!-- End Chatbot -->
+
+<div id="fb-root" class=" fb_reset"><div style="position: absolute; top: -10000px; width: 0px; height: 0px;"><div><iframe name="fb_xdm_frame_https" id="fb_xdm_frame_https" aria-hidden="true" title="Facebook Cross Domain Communication Frame" tabindex="-1" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" allow="encrypted-media" src="https://staticxx.facebook.com/connect/xd_arbiter.php?version=44#channel=f11a2ff7945ebcc&amp;origin=https%3A%2F%2Febank.tpb.vn" style="border: none;"></iframe></div><div></div></div><div class="fb-customerchat fb_invisible_flow fb_iframe_widget" page_id="181643348566296" theme_color="#ff861f" logged_in_greeting="Xin chào! Mình là Trợ lý ảo T’Aio của TPBank. Mình có thể giúp gì cho bạn ?" logged_out_greeting="Xin chào! Mình là Trợ lý ảo T’Aio của TPBank. Mình có thể giúp gì cho bạn ?" fb-xfbml-state="rendered" fb-iframe-plugin-query="app_id=&amp;container_width=0&amp;locale=vi_VN&amp;logged_in_greeting=Xin%20ch%C3%A0o!%20M%C3%ACnh%20l%C3%A0%20Tr%E1%BB%A3%20l%C3%BD%20%E1%BA%A3o%20T%E2%80%99Aio%20c%E1%BB%A7a%20TPBank.%20M%C3%ACnh%20c%C3%B3%20th%E1%BB%83%20gi%C3%BAp%20g%C3%AC%20cho%20b%E1%BA%A1n%20%3F&amp;logged_out_greeting=Xin%20ch%C3%A0o!%20M%C3%ACnh%20l%C3%A0%20Tr%E1%BB%A3%20l%C3%BD%20%E1%BA%A3o%20T%E2%80%99Aio%20c%E1%BB%A7a%20TPBank.%20M%C3%ACnh%20c%C3%B3%20th%E1%BB%83%20gi%C3%BAp%20g%C3%AC%20cho%20b%E1%BA%A1n%20%3F&amp;page_id=181643348566296&amp;sdk=joey&amp;theme_color=%23ff861f"><span style="vertical-align: bottom; width: 1000px; height: 0px;"><iframe name="f1dc3714808c83c" width="1000px" height="1000px" title="" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" allow="encrypted-media" src="https://www.facebook.com/v2.12/plugins/customerchat.php?app_id=&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter.php%3Fversion%3D44%23cb%3Df17c324d8243f98%26domain%3Debank.tpb.vn%26origin%3Dhttps%253A%252F%252Febank.tpb.vn%252Ff11a2ff7945ebcc%26relation%3Dparent.parent&amp;container_width=0&amp;locale=vi_VN&amp;logged_in_greeting=Xin%20ch%C3%A0o!%20M%C3%ACnh%20l%C3%A0%20Tr%E1%BB%A3%20l%C3%BD%20%E1%BA%A3o%20T%E2%80%99Aio%20c%E1%BB%A7a%20TPBank.%20M%C3%ACnh%20c%C3%B3%20th%E1%BB%83%20gi%C3%BAp%20g%C3%AC%20cho%20b%E1%BA%A1n%20%3F&amp;logged_out_greeting=Xin%20ch%C3%A0o!%20M%C3%ACnh%20l%C3%A0%20Tr%E1%BB%A3%20l%C3%BD%20%E1%BA%A3o%20T%E2%80%99Aio%20c%E1%BB%A7a%20TPBank.%20M%C3%ACnh%20c%C3%B3%20th%E1%BB%83%20gi%C3%BAp%20g%C3%AC%20cho%20b%E1%BA%A1n%20%3F&amp;page_id=181643348566296&amp;sdk=joey&amp;theme_color=%23ff861f" style="border: none; visibility: visible; width: 288pt; height: 211px; border-radius: 9pt; bottom: 63pt; padding: 0px; position: fixed; right: 9pt; top: auto; z-index: 2147483647; max-height: 100%;" class=" fb_customer_chat_bounce_in_v2" data-testid="dialog_iframe"></iframe></span></div><div class="fb_dialog  fb_dialog_advanced fb_customer_chat_bubble_animated_no_badge fb_customer_chat_bubble_pop_in" style="background: none; border-radius: 50%; bottom: 18pt; display: inline; height: 45pt; padding: 0px; position: fixed; right: 18pt; top: auto; width: 45pt; z-index: 2147483646;"><div class="fb_dialog_content" style="background: none;"><iframe name="blank_f1dc3714808c83c" width="60px" tabindex="-1" data-testid="bubble_iframe" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" allow="encrypted-media" src="https://www.facebook.com/v2.12/plugins/customer_chat/bubble" style="border: none;"></iframe></div></div></div></body></html>

@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: ebank.com.vn.features.search.LoginStory
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 126.037 sec <<< FAILURE! - in ebank.com.vn.features.search.LoginStory
+login_ebank(ebank.com.vn.features.search.LoginStory)  Time elapsed: 119.802 sec  <<< ERROR!
+org.openqa.selenium.ElementClickInterceptedException: 
+The following error occurred: element click intercepted: Element <input id="trCancel" class="btnshadow-after btn-second-after" onclick="sendJSONRequest()" type="button" value="Ti?p t?c" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="off"> is not clickable at point (976, 491). Other element would receive the click: <iframe name="f1dc3714808c83c" width="1000px" height="1000px" title="" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" allow="encrypted-media" src="https://www.facebook.com/v2.12/plugins/customerchat.php?app_id=&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter.php%3Fversion%3D44%23cb%3Df17c324d8243f98%26domain%3Debank.tpb.vn%26origin%3Dhttps%253A%252F%252Febank.tpb.vn%252Ff11a2ff7945ebcc%26relation%3Dparent.parent&amp;container_width=0&amp;locale=vi_VN&amp;logged_in_greeting=Xin%20ch%C3%A0o!%20M%C3%ACnh%20l%C3%A0%20Tr%E1%BB%A3%20l%C3%BD%20%E1%BA%A3o%20T%E2%80%99Aio%20c%E1%BB%A7a%20TPBank.%20M%C3%ACnh%20c%C3%B3%20th%E1%BB%83%20gi%C3%BAp%20g%C3%AC%20cho%20b%E1%BA%A1n%20%3F&amp;logged_out_greeting=Xin%20ch%C3%A0o!%20M%C3%ACnh%20l%C3%A0%20Tr%E1%BB%A3%20l%C3%BD%20%E1%BA%A3o%20T%E2%80%99Aio%20c%E1%BB%A7a%20TPBank.%20M%C3%ACnh%20c%C3%B3%20th%E1%BB%83%20gi%C3%BAp%20g%C3%AC%20cho%20b%E1%BA%A1n%20%3F&amp;page_id=181643348566296&amp;sdk=joey&amp;theme_color=%23ff861f" style="border: none; visibility: visible; width: 288pt; height: 211px; border-radius: 9pt; bottom: 63pt; padding: 0px; position: fixed; right: 9pt; top: auto; z-index: 2147483647; max-height: 100%;" class=" fb_customer_chat_bounce_in_v2" data-testid="dialog_iframe"></iframe>
+  (Session info: chrome=75.0.3770.142)
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: 'PC2017022219NBH', ip: '192.168.1.8', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 75.0.3770.142, chrome: {chromedriverVersion: 75.0.3770.90 (a6dcaf7e3ec6f..., userDataDir: C:\Users\WINDOW~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63611}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e166a6d691fa7df23546f7ac429966f6
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: 'PC2017022219NBH', ip: '192.168.1.8', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+	at ebank.com.vn.features.search.LoginStory.login_ebank(LoginStory.java:38)
+
